@@ -1,5 +1,10 @@
 package FactoryMundos;
 
+import FactoryEnemigos.Azotamentes;
+import FactoryEnemigos.Gigante;
+import FactoryEnemigos.Huargo;
+import FactoryEnemigos.Kobold;
+
 public class AltoBosque implements EnemyFactory{
     public Kobold creaKobold() {
         return null;
