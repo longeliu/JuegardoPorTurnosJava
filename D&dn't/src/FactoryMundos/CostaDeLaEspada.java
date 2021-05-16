@@ -1,9 +1,9 @@
 package FactoryMundos;
 
-import FactoryEnemigos.Azotamentes;
-import FactoryEnemigos.Gigante;
-import FactoryEnemigos.Huargo;
-import FactoryEnemigos.Kobold;
+import FactoryEnemigos.Azotamentes.Azotamentes;
+import FactoryEnemigos.Gigante.Gigante;
+import FactoryEnemigos.Huargo.Huargo;
+import FactoryEnemigos.Kobold.Kobold;
 
 public class CostaDeLaEspada implements EnemyFactory{
     public Kobold creaKobold() {
