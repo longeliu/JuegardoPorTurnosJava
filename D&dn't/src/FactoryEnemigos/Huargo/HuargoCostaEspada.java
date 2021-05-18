@@ -69,8 +69,7 @@ public class HuargoCostaEspada extends Huargo {
         return extra;
     }
 
-    @Override
-    public void setEstrategia() {
-
-    }
+    public void setEstrategia(Character.Estrategia strat) {
+        //EMPTY
+    };
 }

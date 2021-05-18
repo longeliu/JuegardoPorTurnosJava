@@ -16,7 +16,7 @@ public class App {
         System.out.println(kobold.getArmadura());
 
         Calculadora.instance();
-        System.out.println(kobold.getVida());
+        /*System.out.println(kobold.getVida());
         while (a==kobold.getVida()){
             Calculadora.ataque1(persojane,kobold);
         }
@@ -28,6 +28,12 @@ public class App {
         }
 
         System.out.println(persojane.getVida());
+        */
+        Azotamentes azotaMentes = factory.creaAzotamentes();
+
+        azotaMentes.setEstrategia(new EstrategiaATQ());
+
+        System.out.println(azotaMentes.getAtaque2().getNombre());
 
 
     }

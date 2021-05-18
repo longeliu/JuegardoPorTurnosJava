@@ -9,10 +9,8 @@ public class AzotamentesAltoBosque extends Azotamentes {
     private int inteligencia=1;
     private int vida=10;
     private int armadura=15;
-    private Ataque ataque1= new AtaqueSinArma();
-    private Ataque ataque2;
-    private int defensa;
-    private String extra;
+    private EstrategiaEnemigo estrategia;
+    private Ataque ataque1 = new AtaqueSinArma();
 
     @Override
     public void setVida(int vida) {
@@ -49,28 +47,29 @@ public class AzotamentesAltoBosque extends Azotamentes {
         return 0;
     }
 
+    
     @Override
     public Ataque getAtaque1() {
-        return ataque1;
+        return this.ataque1;
     }
 
     @Override
     public Ataque getAtaque2() {
-        return ataque2;
+        return estrategia.getAtaque2(Constantes.ALTO_BOSQUE);
     }
 
     @Override
     public int getDefensa() {
-        return defensa;
+        return fuerza;
     }
 
     @Override
     public String getExtra() {
-        return extra;
+       
     }
 
     @Override
-    public void setEstrategia() {
-
+    public void setEstrategia(EstrategiaEnemigo strat) {
+        this.estrategia = strat;
     }
 }
