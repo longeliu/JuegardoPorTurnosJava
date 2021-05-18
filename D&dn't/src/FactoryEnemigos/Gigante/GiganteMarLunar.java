@@ -2,6 +2,7 @@ package FactoryEnemigos.Gigante;
 
 import DecoratorAtaque.Ataque;
 import DecoratorAtaque.AtaqueSinArma;
+import Strategy.EstrategiaEnemigo;
 
 public class GiganteMarLunar extends Gigante{
     private int fuerza=1;
@@ -70,7 +71,7 @@ public class GiganteMarLunar extends Gigante{
     }
 
     @Override
-    public void setEstrategia() {
+    public void setEstrategia(EstrategiaEnemigo estrategia) {
 
     }
 }

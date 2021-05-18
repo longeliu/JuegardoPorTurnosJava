@@ -2,6 +2,8 @@ package FactoryEnemigos.Azotamentes;
 
 import DecoratorAtaque.Ataque;
 import DecoratorAtaque.AtaqueSinArma;
+import Strategy.EstrategiaATQ;
+import Strategy.EstrategiaEnemigo;
 
 public class AzotamentesAltoBosque extends Azotamentes {
     private int fuerza=1;
@@ -13,6 +15,8 @@ public class AzotamentesAltoBosque extends Azotamentes {
     private Ataque ataque2;
     private int defensa;
     private String extra;
+    private EstrategiaEnemigo estrategia;
+
 
     @Override
     public void setVida(int vida) {
@@ -56,7 +60,7 @@ public class AzotamentesAltoBosque extends Azotamentes {
 
     @Override
     public Ataque getAtaque2() {
-        return ataque2;
+        return estrategia.getAtaque2(0);
     }
 
     @Override
@@ -70,7 +74,7 @@ public class AzotamentesAltoBosque extends Azotamentes {
     }
 
     @Override
-    public void setEstrategia() {
-
+    public void setEstrategia(EstrategiaEnemigo estrategia) {
+        this.estrategia=estrategia;
     }
 }

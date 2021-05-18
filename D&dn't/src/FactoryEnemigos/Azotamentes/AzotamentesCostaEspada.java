@@ -3,6 +3,7 @@ package FactoryEnemigos.Azotamentes;
 import DecoratorAtaque.Ataque;
 import DecoratorAtaque.AtaqueSinArma;
 import FactoryEnemigos.Gigante.Gigante;
+import Strategy.EstrategiaEnemigo;
 
 public class AzotamentesCostaEspada extends Azotamentes {
     private int fuerza=1;
@@ -71,7 +72,7 @@ public class AzotamentesCostaEspada extends Azotamentes {
     }
 
     @Override
-    public void setEstrategia() {
+    public void setEstrategia(EstrategiaEnemigo estrategia) {
 
     }
 }

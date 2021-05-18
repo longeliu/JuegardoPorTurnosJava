@@ -3,6 +3,7 @@ package FactoryEnemigos.Kobold;
 import DecoratorAtaque.Ataque;
 import DecoratorAtaque.AtaqueSinArma;
 import FactoryEnemigos.Huargo.Huargo;
+import Strategy.EstrategiaEnemigo;
 
 public class KoboldVientohelado extends Kobold {
     private int fuerza=1;
@@ -71,7 +72,7 @@ public class KoboldVientohelado extends Kobold {
     }
 
     @Override
-    public void setEstrategia() {
+    public void setEstrategia(EstrategiaEnemigo estrategia) {
 
     }
 }
