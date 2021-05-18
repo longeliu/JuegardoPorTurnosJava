@@ -1,6 +1,9 @@
-package DecoratorAtaque;
+package DecoratorAtaque.Picaro;
 
-public class Espada extends DecoratorAtack{
+import DecoratorAtaque.Ataque;
+import DecoratorAtaque.DecoratorAtack;
+
+public class Espada extends DecoratorAtack {
 
     public Espada(Ataque ataque) {
         super(ataque);
@@ -8,12 +11,12 @@ public class Espada extends DecoratorAtack{
 
     @Override
     public String getTipoataque() {
-        return "Fuerza";
+        return "Destreza";
     }
 
     @Override
     public int getDamage() {
-        return 0;
+        return 3;
     }
 
     @Override

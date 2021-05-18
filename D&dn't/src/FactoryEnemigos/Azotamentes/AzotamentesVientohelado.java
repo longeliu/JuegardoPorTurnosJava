@@ -1,25 +1,28 @@
 package FactoryEnemigos.Azotamentes;
 
 import DecoratorAtaque.Ataque;
+import DecoratorAtaque.AtaqueSinArma;
 import FactoryEnemigos.Gigante.Gigante;
 
 public class AzotamentesVientohelado extends Azotamentes {
-
-    private int vida;
-    private int armadura;
-    private Ataque ataque1;
+    private int fuerza=1;
+    private int destreza=1;
+    private int inteligencia=1;
+    private int vida=10;
+    private int armadura=15;
+    private Ataque ataque1= new AtaqueSinArma();
     private Ataque ataque2;
     private int defensa;
     private String extra;
 
     @Override
     public void setVida(int vida) {
-
+        this.vida=vida;
     }
 
     @Override
     public void setArmadura(int armadura) {
-
+        this.armadura=armadura;
     }
 
     @Override

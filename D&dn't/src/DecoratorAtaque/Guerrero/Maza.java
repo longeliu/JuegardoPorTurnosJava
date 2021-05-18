@@ -1,6 +1,9 @@
-package DecoratorAtaque;
+package DecoratorAtaque.Guerrero;
 
-public class Maza extends DecoratorAtack{
+import DecoratorAtaque.Ataque;
+import DecoratorAtaque.DecoratorAtack;
+
+public class Maza extends DecoratorAtack {
 
     public Maza(Ataque ataque) {
         super(ataque);

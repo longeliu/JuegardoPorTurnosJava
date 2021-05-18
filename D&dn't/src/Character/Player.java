@@ -1,9 +1,10 @@
 package Character;
 
-import DecoratorAtaque.Ataque;
-import DecoratorAtaque.AtaqueSinArma;
-import DecoratorAtaque.Espada;
-import DecoratorAtaque.Maza;
+import DecoratorAtaque.*;
+import DecoratorAtaque.Guerrero.Maza;
+import DecoratorAtaque.Mago.Baston;
+import DecoratorAtaque.Mago.SaetaDeFuego;
+import DecoratorAtaque.Picaro.Espada;
 
 import java.util.Scanner;
 
@@ -104,6 +105,7 @@ public class Player implements Character{
         this.fuerza=3;
         this.destreza=1;
         this.inteligencia=-1;
+        this.vida=10+fuerza;
         this.defensa=fuerza;
         this.ataque1=new Espada(new AtaqueSinArma());
         this.ataque2=new Maza(new AtaqueSinArma());
@@ -114,9 +116,10 @@ public class Player implements Character{
         this.fuerza=-1;
         this.destreza=1;
         this.inteligencia=3;
+        this.vida=10+fuerza;
         this.defensa=fuerza;
-        this.ataque1=new Espada(new AtaqueSinArma());
-        this.ataque2=new Maza(new AtaqueSinArma());
+        this.ataque1=new Baston(new AtaqueSinArma());
+        this.ataque2=new SaetaDeFuego(new Baston(new AtaqueSinArma()));
     }
 
     private void picaro(){
