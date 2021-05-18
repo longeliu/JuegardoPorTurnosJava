@@ -4,23 +4,71 @@ import DecoratorAtaque.Ataque;
 import FactoryEnemigos.Gigante.Gigante;
 
 public class AzotamentesCostaEspada extends Azotamentes {
+
+    private int vida;
+    private int armadura;
+    private Ataque ataque1;
+    private Ataque ataque2;
+    private int defensa;
+    private String extra;
+
     @Override
-    public Ataque ataque1() {
-        return null;
+    public void setVida(int vida) {
+
     }
 
     @Override
-    public Ataque ataque2() {
-        return null;
+    public void setArmadura(int armadura) {
+
     }
 
     @Override
-    public int defensa() {
+    public int getVida() {
+        return vida;
+    }
+
+    @Override
+    public int getArmadura() {
+        return armadura;
+    }
+
+    @Override
+    public int getFuerza() {
         return 0;
     }
 
     @Override
-    public String extra() {
-        return null;
+    public int getDestreza() {
+        return 0;
+    }
+
+    @Override
+    public int getInteligencia() {
+        return 0;
+    }
+
+    @Override
+    public Ataque getAtaque1() {
+        return ataque1;
+    }
+
+    @Override
+    public Ataque getAtaque2() {
+        return ataque2;
+    }
+
+    @Override
+    public int getDefensa() {
+        return defensa;
+    }
+
+    @Override
+    public String getExtra() {
+        return extra;
+    }
+
+    @Override
+    public void setEstrategia() {
+
     }
 }

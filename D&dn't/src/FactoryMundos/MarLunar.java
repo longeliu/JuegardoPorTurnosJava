@@ -1,24 +1,28 @@
 package FactoryMundos;
 
 import FactoryEnemigos.Azotamentes.Azotamentes;
+import FactoryEnemigos.Azotamentes.AzotamentesMarLunar;
 import FactoryEnemigos.Gigante.Gigante;
+import FactoryEnemigos.Gigante.GiganteMarLunar;
 import FactoryEnemigos.Huargo.Huargo;
+import FactoryEnemigos.Huargo.HuargoMarLunar;
 import FactoryEnemigos.Kobold.Kobold;
+import FactoryEnemigos.Kobold.KoboldMarLunar;
 
 public class MarLunar implements EnemyFactory{
     public Kobold creaKobold() {
-        return null;
+        return new KoboldMarLunar();
     }
 
     public Gigante creaGigante() {
-        return null;
+        return new GiganteMarLunar();
     }
 
     public Azotamentes creaAzotamentes() {
-        return null;
+        return new AzotamentesMarLunar();
     }
 
     public Huargo creaHuargo() {
-        return null;
+        return new HuargoMarLunar();
     }
 }

@@ -1,10 +1,7 @@
 package FactoryEnemigos.Gigante;
 
 import DecoratorAtaque.Ataque;
+import Character.Enemigo;
+public abstract class Gigante extends Enemigo {
 
-public abstract class Gigante {
-    public abstract Ataque ataque1();
-    public abstract Ataque ataque2();
-    public abstract int defensa();
-    public abstract String extra();
 }

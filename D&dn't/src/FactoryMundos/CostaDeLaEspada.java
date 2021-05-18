@@ -1,24 +1,28 @@
 package FactoryMundos;
 
 import FactoryEnemigos.Azotamentes.Azotamentes;
+import FactoryEnemigos.Azotamentes.AzotamentesCostaEspada;
 import FactoryEnemigos.Gigante.Gigante;
+import FactoryEnemigos.Gigante.GiganteCostaEspada;
 import FactoryEnemigos.Huargo.Huargo;
+import FactoryEnemigos.Huargo.HuargoCostaEspada;
 import FactoryEnemigos.Kobold.Kobold;
+import FactoryEnemigos.Kobold.KoboldCostaEspada;
 
 public class CostaDeLaEspada implements EnemyFactory{
     public Kobold creaKobold() {
-        return null;
+        return new KoboldCostaEspada();
     }
 
     public Gigante creaGigante() {
-        return null;
+        return new GiganteCostaEspada();
     }
 
     public Azotamentes creaAzotamentes() {
-        return null;
+        return new AzotamentesCostaEspada();
     }
 
     public Huargo creaHuargo() {
-        return null;
+        return new HuargoCostaEspada();
     }
 }

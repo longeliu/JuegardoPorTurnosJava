@@ -7,12 +7,17 @@ public class Maza extends DecoratorAtack{
     }
 
     @Override
-    public int getPrecision() {
-        return 0;
+    public String getTipoataque() {
+        return "Fuerza";
     }
 
     @Override
     public int getDamage() {
         return 0;
+    }
+
+    @Override
+    public String getNombre() {
+        return "Ataque con Maza";
     }
 }

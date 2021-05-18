@@ -1,6 +1,9 @@
 package DecoratorAtaque;
 
 public interface Ataque {
-    int getPrecision();
+    String getTipoataque();
     int getDamage();
+    String getNombre();
+
+
 }
