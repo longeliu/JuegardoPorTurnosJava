@@ -26,9 +26,15 @@ public class Player implements Character{
         System.out.println("Seleccione su arquetipo:\n1-Guerrero\n2-Mago\n3-Pícaro");
         int seleccion=entrada.nextInt();
         switch (seleccion) {
-            case 1 -> guerrero();
-            case 2 -> mago();
-            case 3 -> picaro();
+            case 1 :
+                guerrero();
+                break;
+            case 2:
+                mago();
+                break;
+            case 3:
+                picaro();
+                break;
         }
 
     }
