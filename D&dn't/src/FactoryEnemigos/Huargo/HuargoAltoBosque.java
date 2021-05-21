@@ -2,6 +2,7 @@ package FactoryEnemigos.Huargo;
 
 import DecoratorAtaque.Ataque;
 import DecoratorAtaque.AtaqueSinArma;
+import Strategy.EstrategiaEnemigo;
 
 public class HuargoAltoBosque extends Huargo{
     private int fuerza=1;
@@ -70,7 +71,7 @@ public class HuargoAltoBosque extends Huargo{
     }
 
     @Override
-    public void setEstrategia() {
+    public void setEstrategia(EstrategiaEnemigo estrategia) {
 
     }
 }
