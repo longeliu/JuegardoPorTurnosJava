@@ -5,7 +5,12 @@ import FactoryEnemigos.Huargo.Huargo;
 import FactoryEnemigos.Kobold.Kobold;
 import FactoryMundos.AltoBosque;
 import FactoryMundos.EnemyFactory;
+import Character.Enemigo;
 import Strategy.Huargo.HuargoEstrategiaATQ;
+import Strategy.Kobold.KoboldEstrategiaATQ;
+import Strategy.Kobold.KoboldEstrategiaDEF;
+
+import java.util.ArrayList;
 
 
 public class App {
@@ -13,6 +18,7 @@ public class App {
         Player persojane = new Player();
         EnemyFactory factory = new AltoBosque();
         Kobold kobold = factory.creaKobold();
+        Kobold kobold2 = factory.creaKobold();
 
         int a = kobold.getVida();
         int b = persojane.getVida();
@@ -20,24 +26,20 @@ public class App {
         System.out.println(kobold.getArmadura());
 
         Calculadora.instance();
-        /*System.out.println(kobold.getVida());
-        while (a==kobold.getVida()){
-            Calculadora.ataque1(persojane,kobold);
-        }
-        System.out.println(kobold.getVida());
 
-        System.out.println(persojane.getVida());
-        while (b==persojane.getVida()){
-            Calculadora.ataque1(kobold,persojane);
-        }
+        kobold.setEstrategia(new KoboldEstrategiaATQ());
+        kobold2.setEstrategia(new KoboldEstrategiaDEF());
 
-        System.out.println(persojane.getVida());*/
 
-        Huargo huargo = factory.creaHuargo();
 
-        huargo.setEstrategia(new HuargoEstrategiaATQ());
+        ArrayList<Enemigo> listaEnemigos = new ArrayList<Enemigo>();
+        listaEnemigos.add(kobold);
+        listaEnemigos.add(kobold2);
 
-        System.out.println(huargo.getAtaque2().getNombre());
+        listaEnemigos.get(0).templateEnemigo(persojane);
+        listaEnemigos.get(1).templateEnemigo(persojane);
+
+
 
     }
 }

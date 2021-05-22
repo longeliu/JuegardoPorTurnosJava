@@ -1,10 +1,35 @@
 package FactoryEnemigos.Azotamentes;
 
+import Calculator.Calculadora;
 import DecoratorAtaque.Ataque;
 import Character.Enemigo;
+import Character.Character;
 
 public abstract class Azotamentes extends Enemigo {
-    public final void templateEnemigo(){
+    public final void templateEnemigo(Character objetivo){
+        String estrategia = getEstrategia().getNombreEstrategia();
+
+        switch (estrategia){
+            case "ATQ":
+                if (getVida()<=((10+getFuerza())/2))
+                    Calculadora.ataque2(this,objetivo);
+                else
+                    Calculadora.ataque1(this,objetivo);
+                break;
+            case "DEF":
+                if (getVida()<=((10+getFuerza())/2)){
+                    if (Calculadora.getDado().nextInt(2)==0){
+                        Calculadora.defensa(this);
+                    }else Calculadora.ataque1(this,objetivo);
+                }else if (getVida()<=((10+getFuerza())/5)){
+                    Calculadora.ataque2(this,objetivo);
+                }else
+                    Calculadora.ataque1(this,objetivo);
+                break;
+            case "SUP":
+
+                break;
+        }
 
     }
 

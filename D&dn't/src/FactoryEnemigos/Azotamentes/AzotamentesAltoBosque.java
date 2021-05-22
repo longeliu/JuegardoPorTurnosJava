@@ -85,4 +85,6 @@ public class AzotamentesAltoBosque extends Azotamentes {
     public EstrategiaEnemigo getEstrategia() {
         return this.estrategia;
     }
+
+
 }

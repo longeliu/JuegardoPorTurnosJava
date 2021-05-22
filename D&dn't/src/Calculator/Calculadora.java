@@ -8,6 +8,9 @@ public class Calculadora {
     private static final Random dado = new Random();
 
 
+    public static Random getDado(){
+        return dado;
+    }
 
     public static Calculadora instance(){
         if (instancia==null){
@@ -50,7 +53,7 @@ public class Calculadora {
 
 
 
-    public void defensa(Character atacante){
+    public static void defensa(Character atacante){
         atacante.setArmadura(atacante.getArmadura()+ atacante.getDefensa());
     }
 
