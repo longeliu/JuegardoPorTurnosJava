@@ -1,11 +1,11 @@
-package DecoratorAtaque.Enemigos.Azotamentes.DEF;
+package DecoratorAtaque.Enemigos.Gigante.SUPP;
 
 import DecoratorAtaque.Ataque;
 import DecoratorAtaque.DecoratorAtack;
 
-public class TentaculoFuerte extends DecoratorAtack{
+public class RunasMedio extends DecoratorAtack{
     
-    public TentaculoFuerte(Ataque ataque) {
+    public RunasMedio(Ataque ataque) {
         super(ataque);
     }
 
@@ -16,11 +16,11 @@ public class TentaculoFuerte extends DecoratorAtack{
 
     @Override
     public int getDamage() {
-        return getAtaque().getDamage() + 3;
+        return getAtaque().getDamage() - 3;
     }
 
     @Override
     public String getNombre() {
-        return "Tentaculo Fuerte";
+        return "Runas Curativas Medio";
     }
 }

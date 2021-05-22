@@ -72,6 +72,6 @@ public class GiganteAltoBosque extends Gigante{
 
     @Override
     public void setEstrategia(EstrategiaEnemigo estrategia) {
-
+        
     }
 }

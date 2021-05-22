@@ -21,6 +21,6 @@ public class TentaculoMedio extends DecoratorAtack{
 
     @Override
     public String getNombre() {
-        return "Tentaculo Igneo";
+        return "Tentaculo Medio";
     }
 }

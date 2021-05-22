@@ -72,6 +72,6 @@ public class GiganteCostaEspada extends Gigante{
 
     @Override
     public void setEstrategia(EstrategiaEnemigo estrategia) {
-
+        
     }
 }

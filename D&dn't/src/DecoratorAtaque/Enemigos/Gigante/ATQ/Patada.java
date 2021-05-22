@@ -1,11 +1,11 @@
-package DecoratorAtaque.Enemigos.Azotamentes.DEF;
+package DecoratorAtaque.Enemigos.Gigante.ATQ;
 
 import DecoratorAtaque.Ataque;
 import DecoratorAtaque.DecoratorAtack;
 
-public class TentaculoFuerte extends DecoratorAtack{
+public class Patada extends DecoratorAtack{
     
-    public TentaculoFuerte(Ataque ataque) {
+    public Patada(Ataque ataque) {
         super(ataque);
     }
 
@@ -16,11 +16,11 @@ public class TentaculoFuerte extends DecoratorAtack{
 
     @Override
     public int getDamage() {
-        return getAtaque().getDamage() + 3;
+        return getAtaque().getDamage() + 2;
     }
 
     @Override
     public String getNombre() {
-        return "Tentaculo Fuerte";
+        return "Patada";
     }
 }
