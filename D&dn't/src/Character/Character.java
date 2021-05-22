@@ -18,4 +18,5 @@ public interface Character {
     public int getDefensa();
     public String getExtra();
 
+
 }

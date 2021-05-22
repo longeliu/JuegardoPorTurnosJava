@@ -8,7 +8,7 @@ import DecoratorAtaque.Enemigos.Kobold.SUPP.CuracionMedia;
 import Strategy.EstrategiaEnemigo;
 
 public class KoboldEstrategiaSUPP implements EstrategiaEnemigo{
-    private String nombre = "DEF";
+    private String nombre = "SUP";
 
     public Ataque getAtaque2(int mundo){
         if (mundo==0){
