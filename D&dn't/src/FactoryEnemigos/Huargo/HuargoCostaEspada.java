@@ -2,6 +2,7 @@ package FactoryEnemigos.Huargo;
 
 import DecoratorAtaque.Ataque;
 import DecoratorAtaque.AtaqueSinArma;
+import State.Estado;
 import Strategy.EstrategiaEnemigo;
 
 public class HuargoCostaEspada extends Huargo {
@@ -14,6 +15,10 @@ public class HuargoCostaEspada extends Huargo {
     private Ataque ataque2;
     private int defensa;
     private String extra;
+    private Estado estado;
+    private EstrategiaEnemigo estrategia;
+
+
 
     @Override
     public void setVida(int vida) {
@@ -72,6 +77,11 @@ public class HuargoCostaEspada extends Huargo {
 
     @Override
     public void setEstrategia(EstrategiaEnemigo estrategia) {
+        this.estrategia=estrategia;
+    }
 
+    @Override
+    public EstrategiaEnemigo getEstrategia() {
+        return this.estrategia;
     }
 }

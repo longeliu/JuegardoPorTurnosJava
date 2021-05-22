@@ -2,6 +2,7 @@ package FactoryEnemigos.Azotamentes;
 
 import DecoratorAtaque.Ataque;
 import DecoratorAtaque.AtaqueSinArma;
+import State.Estado;
 import Strategy.EstrategiaEnemigo;
 import Strategy.Huargo.HuargoEstrategiaATQ;
 
@@ -15,6 +16,8 @@ public class AzotamentesAltoBosque extends Azotamentes {
     private int defensa;
     private String extra;
     private EstrategiaEnemigo estrategia;
+    private Estado estado;
+
 
 
     @Override
@@ -76,5 +79,10 @@ public class AzotamentesAltoBosque extends Azotamentes {
     @Override
     public void setEstrategia(EstrategiaEnemigo estrategia) {
         this.estrategia=estrategia;
+    }
+
+    @Override
+    public EstrategiaEnemigo getEstrategia() {
+        return this.estrategia;
     }
 }

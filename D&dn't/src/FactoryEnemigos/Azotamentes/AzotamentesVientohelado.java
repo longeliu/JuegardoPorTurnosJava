@@ -2,6 +2,7 @@ package FactoryEnemigos.Azotamentes;
 
 import DecoratorAtaque.Ataque;
 import DecoratorAtaque.AtaqueSinArma;
+import State.Estado;
 import Strategy.EstrategiaEnemigo;
 
 public class AzotamentesVientohelado extends Azotamentes {
@@ -14,6 +15,9 @@ public class AzotamentesVientohelado extends Azotamentes {
     private Ataque ataque2;
     private int defensa;
     private String extra;
+    private Estado estado;
+    private EstrategiaEnemigo estrategia;
+
 
     @Override
     public void setVida(int vida) {
@@ -72,6 +76,11 @@ public class AzotamentesVientohelado extends Azotamentes {
 
     @Override
     public void setEstrategia(EstrategiaEnemigo estrategia) {
+        this.estrategia=estrategia;
+    }
 
+    @Override
+    public EstrategiaEnemigo getEstrategia() {
+        return this.estrategia;
     }
 }

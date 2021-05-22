@@ -5,6 +5,7 @@ import DecoratorAtaque.Guerrero.Maza;
 import DecoratorAtaque.Mago.Baston;
 import DecoratorAtaque.Mago.SaetaDeFuego;
 import DecoratorAtaque.Picaro.Espada;
+import State.Estado;
 
 import java.util.Scanner;
 
@@ -21,6 +22,8 @@ public class Player implements Character{
     private Ataque ataque2;
     private int defensa;
     private String extra;
+
+    private Estado estado;
 
     public Player(){
         //TODO cierra el scanner

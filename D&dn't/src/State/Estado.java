@@ -1,10 +1,10 @@
 package State;
 
-public class Turno{
-    private EstadoTurno estadoActual;
+public class Estado {
+    private EstadoPersonaje estadoActual;
 
-    public Turno(){
-        this.estadoActual = new TurnoAccion();
+    public Estado(){
+        this.estadoActual = new PersonajeNormal();
     }
 
     public void siguienteEstado(){
@@ -13,20 +13,17 @@ public class Turno{
 
     public String getEstadoActual() {
         if (estadoActual.queTurnoSoy() == 0) {
-            return "TurnoAccion";
+            return "PersonajeNormal";
         }
 
         else if (estadoActual.queTurnoSoy() == 1) {
-            return "TurnoBonus";
+            return "PersonajeQuemado";
         }
 
         else if (estadoActual.queTurnoSoy() == 2) {
-            return "TurnoReaccion";
+            return "PersonajeCongelado";
         }
 
-        else if (estadoActual.queTurnoSoy() == 3) {
-            return "TurnoOFF";
-        }
         else{
             return "Error";
         }
