@@ -4,6 +4,7 @@ import DecoratorAtaque.Ataque;
 import DecoratorAtaque.DecoratorAtack;
 
 public class BolaDeFuego extends DecoratorAtack {
+    
     public BolaDeFuego(Ataque ataque) {
         super(ataque);
     }
