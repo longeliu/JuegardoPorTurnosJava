@@ -2,6 +2,7 @@ package FactoryEnemigos.Gigante;
 
 import DecoratorAtaque.Ataque;
 import DecoratorAtaque.AtaqueSinArma;
+import State.Estado;
 import Strategy.EstrategiaEnemigo;
 
 public class GiganteVientohelado extends Gigante{
@@ -14,6 +15,8 @@ public class GiganteVientohelado extends Gigante{
     private Ataque ataque2;
     private int defensa;
     private String extra;
+    private Estado estado;
+    private EstrategiaEnemigo estrategia;
 
     @Override
     public void setVida(int vida) {
@@ -72,6 +75,11 @@ public class GiganteVientohelado extends Gigante{
 
     @Override
     public void setEstrategia(EstrategiaEnemigo estrategia) {
+        this.estrategia=estrategia;
+    }
 
+    @Override
+    public EstrategiaEnemigo getEstrategia() {
+        return this.estrategia;
     }
 }

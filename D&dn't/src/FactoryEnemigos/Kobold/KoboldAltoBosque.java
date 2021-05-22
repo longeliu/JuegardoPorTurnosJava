@@ -2,6 +2,7 @@ package FactoryEnemigos.Kobold;
 
 import DecoratorAtaque.Ataque;
 import DecoratorAtaque.AtaqueSinArma;
+import State.Estado;
 import Strategy.EstrategiaEnemigo;
 
 
@@ -16,6 +17,9 @@ public class KoboldAltoBosque extends Kobold {
     private Ataque ataque2;
     private int defensa;
     private String extra;
+    private Estado estado;
+    private EstrategiaEnemigo estrategia;
+
 
     @Override
     public void setVida(int vida) {
@@ -74,6 +78,11 @@ public class KoboldAltoBosque extends Kobold {
 
     @Override
     public void setEstrategia(EstrategiaEnemigo estrategia) {
+        this.estrategia=estrategia;
+    }
 
+    @Override
+    public EstrategiaEnemigo getEstrategia() {
+        return this.estrategia;
     }
 }
