@@ -2,6 +2,7 @@ package Strategy;
 
 import DecoratorAtaque.Ataque;
 import DecoratorAtaque.AtaqueSinArma;
+import DecoratorAtaque.Picaro.Espada;
 
 public class EstrategiaATQ implements EstrategiaEnemigo{
     private String nombre = "ATQ";
@@ -9,7 +10,7 @@ public class EstrategiaATQ implements EstrategiaEnemigo{
 
     public Ataque getAtaque2(int mundo){
         if (mundo==0){
-            return (new AtaqueSinArma());
+            return (new Espada(new AtaqueSinArma()));
         }
         return new AtaqueSinArma();
     }

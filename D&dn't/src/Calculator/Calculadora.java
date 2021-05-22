@@ -48,6 +48,8 @@ public class Calculadora {
 
     }
 
+
+
     public void defensa(Character atacante){
         atacante.setArmadura(atacante.getArmadura()+ atacante.getDefensa());
     }
