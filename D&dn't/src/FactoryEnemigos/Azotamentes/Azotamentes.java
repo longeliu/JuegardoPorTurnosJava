@@ -11,24 +11,22 @@ public abstract class Azotamentes extends Enemigo {
 
         switch (estrategia){
             case "ATQ":
-                if (getVida()<=((10+getFuerza())/2))
-                    Calculadora.ataque2(this,objetivo);
-                else
-                    Calculadora.ataque1(this,objetivo);
-                break;
+               if (Calculadora.getDado().nextInt(2)==0){
+                  Calculadora.ataque1(this, objetivo);
+               }else 
+                  Calculadora.ataque2(this, objetivo);
+               break;
             case "DEF":
-                if (getVida()<=((10+getFuerza())/2)){
-                    if (Calculadora.getDado().nextInt(2)==0){
-                        Calculadora.defensa(this);
-                    }else Calculadora.ataque1(this,objetivo);
-                }else if (getVida()<=((10+getFuerza())/5)){
-                    Calculadora.ataque2(this,objetivo);
+                if (getVida()<=((10+getFuerza())/4)){
+                  Calculadora.defensa(this);
+                }else if (getVida()<=((10+getFuerza())/1.4)){
+                  Calculadora.ataque2(this,objetivo);
                 }else
-                    Calculadora.ataque1(this,objetivo);
+                  Calculadora.ataque1(this,objetivo);
                 break;
             case "SUP":
-
-                break;
+               CuracionEldritch(listaEnemigos);
+               break;
         }
 
     }
@@ -41,10 +39,18 @@ public abstract class Azotamentes extends Enemigo {
         def
            vis < 70 ataque2
            vida > 70 ataque 1
-           vida > 30 full defensa
+           vida < 30 full defensa
         att
            alternar ataque 1 y 2 constantemente
         todos
         si vida >15 te habla en ebreo para decirte no me mates porfi uwu
      */
+
+   private void CuracionEldritch(ArrayList<Enemigo> listaEnemigos){
+      for(int i = 0; i < listaEnemigos.size(); i++){
+         if (listaEnemigos.get(i).getVida() < 10+getFuerza()/2 && listaEnemigos.get(i) instanceof Azotamentes) {
+            Calculadora.ataque2(this, listaEnemigos.get(i));
+         }
+      }
+   }   
 }
