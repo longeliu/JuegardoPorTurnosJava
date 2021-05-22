@@ -1,26 +1,26 @@
-package DecoratorAtaque.Mago;
+package DecoratorAtaque.Enemigos.Huargo.SUPP;
 
 import DecoratorAtaque.Ataque;
 import DecoratorAtaque.DecoratorAtack;
 
-public class BolaDeFuego extends DecoratorAtack {
+public class DescansoMedio extends DecoratorAtack{
     
-    public BolaDeFuego(Ataque ataque) {
+    public DescansoMedio(Ataque ataque) {
         super(ataque);
     }
 
     @Override
     public String getTipoataque() {
-        return getAtaque().getTipoataque();
+        return "Fuerza";
     }
 
     @Override
     public int getDamage() {
-        return getAtaque().getDamage()+3;
+        return getAtaque().getDamage() - 3;
     }
 
     @Override
     public String getNombre() {
-        return "Bola de fuego";
+        return "Descanso Medio";
     }
 }

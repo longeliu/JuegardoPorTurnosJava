@@ -37,17 +37,17 @@ public class GiganteAltoBosque extends Gigante{
 
     @Override
     public int getFuerza() {
-        return 0;
+        return this.fuerza;
     }
 
     @Override
     public int getDestreza() {
-        return 0;
+        return this.destreza;
     }
 
     @Override
     public int getInteligencia() {
-        return 0;
+        return this.inteligencia;
     }
 
     @Override

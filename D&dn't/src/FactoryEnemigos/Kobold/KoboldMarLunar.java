@@ -2,7 +2,6 @@ package FactoryEnemigos.Kobold;
 
 import DecoratorAtaque.Ataque;
 import DecoratorAtaque.AtaqueSinArma;
-import FactoryEnemigos.Huargo.Huargo;
 import Strategy.EstrategiaEnemigo;
 
 public class KoboldMarLunar extends Kobold {
@@ -38,17 +37,17 @@ public class KoboldMarLunar extends Kobold {
 
     @Override
     public int getFuerza() {
-        return 0;
+        return this.fuerza;
     }
 
     @Override
     public int getDestreza() {
-        return 0;
+        return this.destreza;
     }
 
     @Override
     public int getInteligencia() {
-        return 0;
+        return this.inteligencia;
     }
 
     @Override

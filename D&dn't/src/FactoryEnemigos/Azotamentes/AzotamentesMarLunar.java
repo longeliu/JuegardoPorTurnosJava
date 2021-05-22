@@ -2,7 +2,6 @@ package FactoryEnemigos.Azotamentes;
 
 import DecoratorAtaque.Ataque;
 import DecoratorAtaque.AtaqueSinArma;
-import FactoryEnemigos.Gigante.Gigante;
 import Strategy.EstrategiaEnemigo;
 
 public class AzotamentesMarLunar extends Azotamentes {
@@ -38,17 +37,17 @@ public class AzotamentesMarLunar extends Azotamentes {
 
     @Override
     public int getFuerza() {
-        return 0;
+        return this.fuerza;
     }
 
     @Override
     public int getDestreza() {
-        return 0;
+        return this.destreza;
     }
 
     @Override
     public int getInteligencia() {
-        return 0;
+        return this.inteligencia;
     }
 
     @Override

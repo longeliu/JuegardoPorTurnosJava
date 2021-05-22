@@ -2,8 +2,8 @@ package FactoryEnemigos.Azotamentes;
 
 import DecoratorAtaque.Ataque;
 import DecoratorAtaque.AtaqueSinArma;
-import Strategy.EstrategiaATQ;
 import Strategy.EstrategiaEnemigo;
+import Strategy.Huargo.HuargoEstrategiaATQ;
 
 public class AzotamentesAltoBosque extends Azotamentes {
     private int fuerza=1;
@@ -12,7 +12,6 @@ public class AzotamentesAltoBosque extends Azotamentes {
     private int vida=10;
     private int armadura=15;
     private Ataque ataque1= new AtaqueSinArma();
-    private Ataque ataque2;
     private int defensa;
     private String extra;
     private EstrategiaEnemigo estrategia;
@@ -40,17 +39,17 @@ public class AzotamentesAltoBosque extends Azotamentes {
 
     @Override
     public int getFuerza() {
-        return 0;
+        return this.fuerza;
     }
 
     @Override
     public int getDestreza() {
-        return 0;
+        return this.destreza;
     }
 
     @Override
     public int getInteligencia() {
-        return 0;
+        return this.inteligencia;
     }
 
     
@@ -61,11 +60,7 @@ public class AzotamentesAltoBosque extends Azotamentes {
 
     @Override
     public Ataque getAtaque2() {
-<<<<<<< HEAD
-        return estrategia.getAtaque2(Constantes.ALTO_BOSQUE);
-=======
         return estrategia.getAtaque2(0);
->>>>>>> master
     }
 
     @Override
@@ -75,16 +70,11 @@ public class AzotamentesAltoBosque extends Azotamentes {
 
     @Override
     public String getExtra() {
-       
+       return "EMPTY";
     }
 
     @Override
-<<<<<<< HEAD
-    public void setEstrategia(EstrategiaEnemigo strat) {
-        this.estrategia = strat;
-=======
     public void setEstrategia(EstrategiaEnemigo estrategia) {
         this.estrategia=estrategia;
->>>>>>> master
     }
 }

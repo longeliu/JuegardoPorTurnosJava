@@ -1,10 +1,11 @@
 import Calculator.Calculadora;
 import Character.Player;
 import FactoryEnemigos.Azotamentes.Azotamentes;
+import FactoryEnemigos.Huargo.Huargo;
 import FactoryEnemigos.Kobold.Kobold;
 import FactoryMundos.AltoBosque;
 import FactoryMundos.EnemyFactory;
-import Strategy.EstrategiaATQ;
+import Strategy.Huargo.HuargoEstrategiaATQ;
 
 
 public class App {
@@ -32,11 +33,11 @@ public class App {
 
         System.out.println(persojane.getVida());*/
 
-        Azotamentes azotaMentes = factory.creaAzotamentes();
+        Huargo huargo = factory.creaHuargo();
 
-        azotaMentes.setEstrategia(new EstrategiaATQ());
+        huargo.setEstrategia(new HuargoEstrategiaATQ());
 
-        System.out.println(azotaMentes.getAtaque2().getNombre());
+        System.out.println(huargo.getAtaque2().getNombre());
 
     }
 }
