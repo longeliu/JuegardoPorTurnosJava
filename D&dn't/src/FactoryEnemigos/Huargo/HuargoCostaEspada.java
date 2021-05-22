@@ -62,7 +62,7 @@ public class HuargoCostaEspada extends Huargo {
 
     @Override
     public Ataque getAtaque2() {
-        return ataque2;
+        return estrategia.getAtaque2(1);
     }
 
     @Override

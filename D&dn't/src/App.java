@@ -9,6 +9,7 @@ import Character.Enemigo;
 import Strategy.Huargo.HuargoEstrategiaATQ;
 import Strategy.Kobold.KoboldEstrategiaATQ;
 import Strategy.Kobold.KoboldEstrategiaDEF;
+import Strategy.Kobold.KoboldEstrategiaSUPP;
 
 import java.util.ArrayList;
 
@@ -18,6 +19,7 @@ public class App {
         Player persojane = new Player();
         EnemyFactory factory = new AltoBosque();
         Kobold kobold = factory.creaKobold();
+
         Kobold kobold2 = factory.creaKobold();
 
         int a = kobold.getVida();
@@ -28,7 +30,7 @@ public class App {
         Calculadora.instance();
 
         kobold.setEstrategia(new KoboldEstrategiaATQ());
-        kobold2.setEstrategia(new KoboldEstrategiaDEF());
+        kobold2.setEstrategia(new KoboldEstrategiaSUPP());
 
 
 
@@ -36,9 +38,12 @@ public class App {
         listaEnemigos.add(kobold);
         listaEnemigos.add(kobold2);
 
-        listaEnemigos.get(0).templateEnemigo(persojane);
-        listaEnemigos.get(1).templateEnemigo(persojane);
-
+        listaEnemigos.get(0).templateEnemigo(persojane,listaEnemigos);
+        listaEnemigos.get(1).templateEnemigo(persojane,listaEnemigos);
+        Calculadora.ataque1(persojane,kobold);
+        Calculadora.ataque1(persojane,kobold);
+        Calculadora.ataque2(persojane,kobold);
+        listaEnemigos.get(1).templateEnemigo(persojane,listaEnemigos);
 
 
     }

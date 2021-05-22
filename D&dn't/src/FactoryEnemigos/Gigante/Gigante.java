@@ -8,7 +8,7 @@ import Character.Character;
 import java.util.ArrayList;
 
 public abstract class Gigante extends Enemigo {
-    public final void templateEnemigo(Character objetivo){
+    public final void templateEnemigo(Character objetivo,ArrayList<Enemigo> listaEnemigos){
         String estrategia = getEstrategia().getNombreEstrategia();
 
         if (estrategia.equals("SUP")){
@@ -25,7 +25,7 @@ public abstract class Gigante extends Enemigo {
     }
 
     private void alentarAlPueblo(ArrayList<Enemigo> listaEnemigos){
-        //busca gigantes a mitad de vida y canta para curarles
+        //busca gigantes a mitad de vida y canta para curarles TODO
     }
     /*
     chekea strat

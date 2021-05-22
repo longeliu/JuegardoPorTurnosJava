@@ -61,7 +61,7 @@ public class AzotamentesMarLunar extends Azotamentes {
 
     @Override
     public Ataque getAtaque2() {
-        return ataque2;
+        return estrategia.getAtaque2(2);
     }
 
     @Override

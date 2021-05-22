@@ -60,7 +60,7 @@ public class GiganteVientohelado extends Gigante{
 
     @Override
     public Ataque getAtaque2() {
-        return ataque2;
+        return estrategia.getAtaque2(3);
     }
 
     @Override

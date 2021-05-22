@@ -11,12 +11,12 @@ public class Curacion extends DecoratorAtack{
 
     @Override
     public String getTipoataque() {
-        return "Fuerza";
+        return "Inteligencia";
     }
 
     @Override
     public int getDamage() {
-        return getAtaque().getDamage() - 2;
+        return -3;
     }
 
     @Override

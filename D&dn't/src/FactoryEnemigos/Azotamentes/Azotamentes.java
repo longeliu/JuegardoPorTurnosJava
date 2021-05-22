@@ -5,8 +5,10 @@ import DecoratorAtaque.Ataque;
 import Character.Enemigo;
 import Character.Character;
 
+import java.util.ArrayList;
+
 public abstract class Azotamentes extends Enemigo {
-    public final void templateEnemigo(Character objetivo){
+    public final void templateEnemigo(Character objetivo,ArrayList<Enemigo> listaEnemigos){
         String estrategia = getEstrategia().getNombreEstrategia();
 
         switch (estrategia){
@@ -50,6 +52,7 @@ public abstract class Azotamentes extends Enemigo {
       for(int i = 0; i < listaEnemigos.size(); i++){
          if (listaEnemigos.get(i).getVida() < 10+getFuerza()/2 && listaEnemigos.get(i) instanceof Azotamentes) {
             Calculadora.ataque2(this, listaEnemigos.get(i));
+            break;
          }
       }
    }   

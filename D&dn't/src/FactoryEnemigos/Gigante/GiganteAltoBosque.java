@@ -61,7 +61,7 @@ public class GiganteAltoBosque extends Gigante{
 
     @Override
     public Ataque getAtaque2() {
-        return ataque2;
+        return estrategia.getAtaque2(0);
     }
 
     @Override

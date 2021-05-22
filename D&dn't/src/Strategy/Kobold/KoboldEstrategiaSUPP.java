@@ -12,7 +12,7 @@ public class KoboldEstrategiaSUPP implements EstrategiaEnemigo{
 
     public Ataque getAtaque2(int mundo){
         if (mundo==0){
-            return (new AtaqueSinArma());
+            return (new Curacion(new AtaqueSinArma()));
         }
         else if (mundo == 1){
             return (new Curacion(new AtaqueSinArma()));
