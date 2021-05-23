@@ -1,4 +1,6 @@
+
 import Character.Player;
+
 
 
 public class App {
@@ -7,18 +9,9 @@ public class App {
         int gameOver = 0;
         int n_rondas = 0;
         do {
-            System.out.println("Estas en la ronda " + n_rondas);
-            gameOver = GameManager.ronda(personaje, n_rondas);    
-            n_rondas++;
+            System.out.println("Estas en la d");
+            GameManager.ronda(personaje, n_rondas);    
         } while (gameOver == 1);
-        System.out.println("GAME OVER");
-
-
-
-
-
-
-
         /*Player persojane = new Player();
         EnemyFactory factory = new AltoBosque();
         Kobold kobold = factory.creaKobold();
