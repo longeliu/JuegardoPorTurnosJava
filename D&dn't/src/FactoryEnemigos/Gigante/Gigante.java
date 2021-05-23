@@ -1,7 +1,6 @@
 package FactoryEnemigos.Gigante;
 
 import Calculator.Calculadora;
-import DecoratorAtaque.Ataque;
 import Character.Enemigo;
 import Character.Character;
 
