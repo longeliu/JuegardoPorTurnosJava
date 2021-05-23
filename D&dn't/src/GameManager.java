@@ -191,7 +191,7 @@ public class GameManager {
     }
 
     public static int ronda(Player personajeP, int n_puntos) {//gestor principal de rondas
-        if (n_puntos < 10) {//divisor por puntos mundo 1 < 10 puntos, mundo 2 < 20, mundo 3 < de 30 mundo 4 > 30
+        if (n_puntos < 6) {//divisor por puntos mundo 1 < 10 puntos, mundo 2 < 20, mundo 3 < de 30 mundo 4 > 30
             EnemyFactory factoria = new AltoBosque();//crea la factoria del mundo apropiado
             ArrayList<Enemigo> enemigos = new ArrayList<>();//crea la lista de enemigos
             for(int i = 0; i <= n_puntos; i += 2){//crea enemigos en funcion de los puntos de experiencia
@@ -224,14 +224,17 @@ public class GameManager {
                 }
             }
             
-        }else if(n_puntos < 20){//igual que el anterior pero cambiando la factoria de mundo
-            if(n_puntos== 10)
+        }else if(n_puntos < 14){//igual que el anterior pero cambiando la factoria de mundo
+            if(n_puntos== 6){
                 personajeP.getEstado().siguienteEstado();
+                personajeP.setVida(20+personajeP.getFuerza());
+                System.out.println("Te has curado.");
+            }
             System.out.println(personajeP.getEstado().getEstadoActual().queEstadoSoy());
             EnemyFactory factoria = new CostaDeLaEspada();
             ArrayList<Enemigo> enemigos = new ArrayList<>();
             //Crea enemigos
-            for(int i = 0; i <= n_puntos -10; i += 2){
+            for(int i = 0; i <= n_puntos -6; i += 2){
                 enemigos.add(spawner(factoria));
             }
             setEstrategiaPorRaza(enemigos);
@@ -259,12 +262,16 @@ public class GameManager {
                     }
                 }
             }
-        }else if(n_puntos < 30){//igual que el anterior pero cambiando la factoria de mundo
+        }else if(n_puntos < 22){//igual que el anterior pero cambiando la factoria de mundo
+            if(n_puntos== 14){
+                personajeP.setVida(30+personajeP.getFuerza());
+                System.out.println("Te has curado.");
+            }
             System.out.println(personajeP.getEstado().getEstadoActual().queEstadoSoy());
             EnemyFactory factoria = new MarLunar();
             ArrayList<Enemigo> enemigos = new ArrayList<>();
             //Crea enemigos
-            for(int i = 0; i <= n_puntos - 20; i += 2){
+            for(int i = 0; i <= n_puntos - 14; i += 2){
                 enemigos.add(spawner(factoria));
             }
             setEstrategiaPorRaza(enemigos);
@@ -293,13 +300,16 @@ public class GameManager {
                 }
             }
         }else{//igual que el anterior pero cambiando la factoria de mundo
-            if (n_puntos==30)
+            if(n_puntos== 22){
                 personajeP.getEstado().siguienteEstado();
+                personajeP.setVida(40+personajeP.getFuerza());
+                System.out.println("Te has curado.");
+            }
             System.out.println(personajeP.getEstado().getEstadoActual().queEstadoSoy());
             EnemyFactory factoria = new ValleVientohelado();
             ArrayList<Enemigo> enemigos = new ArrayList<>();
             //Crea enemigos
-            for(int i = 0; i <= n_puntos -30; i += 2){
+            for(int i = 0; i <= n_puntos -22; i += 2){
                 enemigos.add(spawner(factoria));
             }
             setEstrategiaPorRaza(enemigos);
