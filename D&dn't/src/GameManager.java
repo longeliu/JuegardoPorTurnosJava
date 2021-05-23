@@ -27,7 +27,7 @@ import FactoryEnemigos.Kobold.Kobold;
 
 public class GameManager {
     
-    private static Enemigo spawner(EnemyFactory factoria){
+    private static Enemigo spawner(EnemyFactory factoria){//metodo que randomiza el spawn enemigo entre las 4 razas
         int rand = Calculadora.getDado().nextInt(4);
         if (rand == 0) {
             return factoria.creaKobold();
@@ -40,7 +40,7 @@ public class GameManager {
         }
     }
 
-    private static int seleccionadorEnemigos(ArrayList<Enemigo> enemigos){
+    private static int seleccionadorEnemigos(ArrayList<Enemigo> enemigos){//metodo que printea todos los enemigos presentes en el combate junto a su vida para que el jugador pueda elegir un objetivo
         Scanner entrada = new Scanner(System.in);
         int num = enemigos.size() + 1;
         do{
@@ -53,11 +53,11 @@ public class GameManager {
         return num;
     }
 
-    private static void turnoJugador(Player personajeP, ArrayList<Enemigo> enemigos){
-        personajeP.setArmadura(10+personajeP.getDestreza());
+    private static void turnoJugador(Player personajeP, ArrayList<Enemigo> enemigos){//turno del jugador
+        personajeP.setArmadura(10+personajeP.getDestreza());//resetea la armadura por si se ha utilizado defensa en el turno anterior
         Scanner entrada = new Scanner(System.in);
         System.out.println("Es tu turno, tienes " + personajeP.getVida() +  " de vida, puedes hacer lo siguiente: ");
-        System.out.println("1- " + personajeP.getAtaque1().getNombre() +"\n2- " + personajeP.getAtaque2().getNombre() +"\n3- Defensa\n4- Rendirte");
+        System.out.println("1- " + personajeP.getAtaque1().getNombre() +"\n2- " + personajeP.getAtaque2().getNombre() +"\n3- Defensa\n4- Rendirte");//muestra las acciones disponibles
         int comprobarInput = 0;
         int objetivo = 0;
         do {
@@ -67,23 +67,23 @@ public class GameManager {
                 case 1:
 
                     System.out.printf("A quien quieres atacar? con %s: \n", personajeP.getAtaque1().getNombre());
-                    objetivo = seleccionadorEnemigos(enemigos);
-                    Calculadora.ataque1(personajeP, enemigos.get(objetivo));
+                    objetivo = seleccionadorEnemigos(enemigos);// llama a seleccionador enemigos para mostrar los objetivos
+                    Calculadora.ataque1(personajeP, enemigos.get(objetivo));//llama a calculadora para hacer ataque 1
                     break;
-                case 2:
+                case 2://igual que el anterior pero con ataque 2
 
                     System.out.printf("A quien quieres atacar? con %s: \n", personajeP.getAtaque2().getNombre());
                     objetivo = seleccionadorEnemigos(enemigos);
                     Calculadora.ataque2(personajeP, enemigos.get(objetivo));
                     break;
-                case 3:
+                case 3://
 
                     System.out.println("Defensa Activada!");
-                    Calculadora.defensa(personajeP);
+                    Calculadora.defensa(personajeP);//llama a calculadora para utilizar defensa sobre si mismo
                     break;
                 case 4:
 
-                    personajeP.setVida(0);
+                    personajeP.setVida(0);//vida a 0 por lo que fuerza un game over
                     break;
                 default:
                     comprobarInput = 1;
@@ -92,7 +92,7 @@ public class GameManager {
         } while (comprobarInput == 1);
     }
 
-    private static int comprobarEnemigos(ArrayList<Enemigo> enemigos){
+    private static int comprobarEnemigos(ArrayList<Enemigo> enemigos){//comprueba la vida de todos lo enmigos y si alguno ha perdido toda su vida lo borra de la lista de enemigos
         for(int i = 0; i < enemigos.size(); i++){
             if (enemigos.get(i).getVida() <= 0) {
                 enemigos.remove(i);
@@ -102,7 +102,7 @@ public class GameManager {
         return -1;
     }
 
-    private static boolean comprobarJugador(Player personajeP) {
+    private static boolean comprobarJugador(Player personajeP) {//comprueba si el jugador sigue vivo
         if (personajeP.getVida() <= 0) {
             return true;
         }
@@ -111,7 +111,7 @@ public class GameManager {
         }
     }
     
-    private static void rellenarEstrategiaKobold(Enemigo enemigo){
+    private static void rellenarEstrategiaKobold(Enemigo enemigo){//asigna una estrategia aleatoria al kobold
         int randomEstrat = Calculadora.getDado().nextInt(3);
         switch (randomEstrat) {
             case 0:
@@ -127,7 +127,7 @@ public class GameManager {
                 break;
         }
     }
-    private static void rellenarEstrategiaHuargo(Enemigo enemigo){
+    private static void rellenarEstrategiaHuargo(Enemigo enemigo){//asigna una estrategia aleatoria al huargo
         int randomEstrat = Calculadora.getDado().nextInt(3);
         switch (randomEstrat) {
             case 0:
@@ -143,7 +143,7 @@ public class GameManager {
                 break;
         } 
     }
-    private static void rellenarEstrategiaGigante(Enemigo enemigo){
+    private static void rellenarEstrategiaGigante(Enemigo enemigo){//asigna una estrategia aleatoria al gigante
         int randomEstrat = Calculadora.getDado().nextInt(3);
         switch (randomEstrat) {
             case 0:
@@ -159,7 +159,7 @@ public class GameManager {
                 break;
         } 
     }
-    private static void rellenarEstrategiaAzotamentes(Enemigo enemigo){
+    private static void rellenarEstrategiaAzotamentes(Enemigo enemigo){//asigna una estrategia aleatoria al azotamentes
         int randomEstrat = Calculadora.getDado().nextInt(3);
         switch (randomEstrat) {
             case 0:
@@ -176,7 +176,7 @@ public class GameManager {
         } 
     }
 
-    private static void setEstrategiaPorRaza(ArrayList<Enemigo> enemigos){
+    private static void setEstrategiaPorRaza(ArrayList<Enemigo> enemigos){//busca el tipo de raza de la lista de enemigos para asignarle su estrategia apropiada
         for (int i = 0; i < enemigos.size(); i++) {
             if(enemigos.get(i) instanceof Kobold){
                 rellenarEstrategiaKobold(enemigos.get(i));
@@ -190,42 +190,41 @@ public class GameManager {
         }
     }
 
-    public static int ronda(Player personajeP, int n_puntos) {
-        if (n_puntos < 10) {
-            EnemyFactory factoria = new AltoBosque();
-            ArrayList<Enemigo> enemigos = new ArrayList<>();
-            //Crea enemigos
-            for(int i = 0; i <= n_puntos; i += 2){
+    public static int ronda(Player personajeP, int n_puntos) {//gestor principal de rondas
+        if (n_puntos < 10) {//divisor por puntos mundo 1 < 10 puntos, mundo 2 < 20, mundo 3 < de 30 mundo 4 > 30
+            EnemyFactory factoria = new AltoBosque();//crea la factoria del mundo apropiado
+            ArrayList<Enemigo> enemigos = new ArrayList<>();//crea la lista de enemigos
+            for(int i = 0; i <= n_puntos; i += 2){//crea enemigos en funcion de los puntos de experiencia
                 enemigos.add(spawner(factoria));
             }
-            setEstrategiaPorRaza(enemigos);
+            setEstrategiaPorRaza(enemigos);//reparte las estrategias a los enemigos
             System.out.println("Estas en Altobosque y te encuentras con:");
-            for (int i = 0; i < enemigos.size(); i++) {
+            for (int i = 0; i < enemigos.size(); i++) {//muestra los enemigos
                 System.out.println(enemigos.get(i).getNombre());
             }
-            System.out.println(personajeP.getEstado().getEstadoActual().queEstadoSoy());
-            int posicionjugador = Calculadora.getDado().nextInt(enemigos.size() + 1);
+            System.out.println(personajeP.getEstado().getEstadoActual().queEstadoSoy());//printea el estado del personaje(cambia por mundo)
+            int posicionjugador = Calculadora.getDado().nextInt(enemigos.size() + 1); //randomiza el turno del jugador
 
-            while(enemigos.size() > 0){
+            while(enemigos.size() > 0){//divide los turnos en orden
                 for(int i = 0; i < (enemigos.size() + 1); i++){
-                    if(i < posicionjugador){
-                        enemigos.get(i).templateEnemigo(personajeP, enemigos);
+                    if(i < posicionjugador){//primero los anteriores al jugador
+                        enemigos.get(i).templateEnemigo(personajeP, enemigos);//llama al template para ejecutar el turno
                     }else if(i == posicionjugador){
-                        turnoJugador(personajeP,enemigos);
+                        turnoJugador(personajeP,enemigos);//turno del jugador
                     }else{
-                        enemigos.get(i - 1).templateEnemigo(personajeP, enemigos);
+                        enemigos.get(i - 1).templateEnemigo(personajeP, enemigos);//enemigos posteriores al jugador
                     }
-                    int todosVivos = comprobarEnemigos(enemigos);
-                    if (todosVivos != -1 && todosVivos < posicionjugador){
+                    int todosVivos = comprobarEnemigos(enemigos);//comprueba enemigos muertos
+                    if (todosVivos != -1 && todosVivos < posicionjugador){//si muere algun enemigo cuya posicion es anterior a la del jugador se adelanta 1 posicion al jugador
                         --posicionjugador;
                     }
-                    if (comprobarJugador(personajeP)) {
+                    if (comprobarJugador(personajeP)) {//comprueba si el jugador esta muerto
                         return 0;
                     }
                 }
             }
             
-        }else if(n_puntos < 20){
+        }else if(n_puntos < 20){//igual que el anterior pero cambiando la factoria de mundo
             if(n_puntos== 10)
                 personajeP.getEstado().siguienteEstado();
             System.out.println(personajeP.getEstado().getEstadoActual().queEstadoSoy());
@@ -260,7 +259,7 @@ public class GameManager {
                     }
                 }
             }
-        }else if(n_puntos < 30){
+        }else if(n_puntos < 30){//igual que el anterior pero cambiando la factoria de mundo
             System.out.println(personajeP.getEstado().getEstadoActual().queEstadoSoy());
             EnemyFactory factoria = new MarLunar();
             ArrayList<Enemigo> enemigos = new ArrayList<>();
@@ -293,7 +292,7 @@ public class GameManager {
                     }
                 }
             }
-        }else{
+        }else{//igual que el anterior pero cambiando la factoria de mundo
             if (n_puntos==30)
                 personajeP.getEstado().siguienteEstado();
             System.out.println(personajeP.getEstado().getEstadoActual().queEstadoSoy());

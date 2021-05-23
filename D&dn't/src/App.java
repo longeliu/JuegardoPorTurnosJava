@@ -13,5 +13,6 @@ public class App {
             gameOver = GameManager.ronda(personaje, n_puntos);
             n_puntos++;
         } while (gameOver == 1);
+        System.out.println("GAME OVER");
     }
 }
