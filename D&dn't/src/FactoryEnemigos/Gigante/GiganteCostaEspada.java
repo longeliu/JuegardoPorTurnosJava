@@ -2,7 +2,6 @@ package FactoryEnemigos.Gigante;
 
 import DecoratorAtaque.Ataque;
 import DecoratorAtaque.AtaqueSinArma;
-import State.Estado;
 import Strategy.EstrategiaEnemigo;
 
 public class GiganteCostaEspada extends Gigante{
@@ -12,7 +11,6 @@ public class GiganteCostaEspada extends Gigante{
     private int vida=10;
     private int armadura=15;
     private Ataque ataque1= new AtaqueSinArma();
-    private Ataque ataque2;
     private int defensa;
     private EstrategiaEnemigo estrategia;
 
