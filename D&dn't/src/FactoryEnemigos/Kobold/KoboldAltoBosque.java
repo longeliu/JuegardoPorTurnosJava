@@ -16,8 +16,6 @@ public class KoboldAltoBosque extends Kobold {
     private Ataque ataque1= new AtaqueSinArma();
     private Ataque ataque2;
     private int defensa;
-    private String extra;
-    private Estado estado;
     private EstrategiaEnemigo estrategia;
 
 
@@ -69,11 +67,6 @@ public class KoboldAltoBosque extends Kobold {
     @Override
     public int getDefensa() {
         return defensa;
-    }
-
-    @Override
-    public String getExtra() {
-        return extra;
     }
 
     @Override

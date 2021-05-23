@@ -1,24 +1,25 @@
 package FactoryEnemigos.Azotamentes;
 
 import Calculator.Calculadora;
-import DecoratorAtaque.Ataque;
 import Character.Enemigo;
 import Character.Character;
 
 import java.util.ArrayList;
 
-public abstract class Azotamentes extends Enemigo {
+public abstract class Azotamentes extends Enemigo {//Padre de los azotamentes contiene su estrategia y su nombre
+
     public final void templateEnemigo(Character objetivo,ArrayList<Enemigo> listaEnemigos){
         String estrategia = getEstrategia().getNombreEstrategia();
+        this.setArmadura(10 + getDestreza());
 
         switch (estrategia){
-            case "ATQ":
+            case "ATQ"://los ofensivos alternan entre el ataque 1 y el 2 constantemente
                if (Calculadora.getDado().nextInt(2)==0){
                   Calculadora.ataque1(this, objetivo);
                }else 
                   Calculadora.ataque2(this, objetivo);
                break;
-            case "DEF":
+            case "DEF"://los defensivos seleccionan su ataque en funcion de su vida y cuando les queda poca se defienden
                 if (getVida()<=((10+getFuerza())/4)){
                   Calculadora.defensa(this);
                 }else if (getVida()<=((10+getFuerza())/1.4)){
@@ -26,29 +27,14 @@ public abstract class Azotamentes extends Enemigo {
                 }else
                   Calculadora.ataque1(this,objetivo);
                 break;
-            case "SUP":
+            case "SUP"://los soporte utilizan curacion eldrich
                CuracionEldritch(listaEnemigos);
                break;
         }
 
     }
 
-    /*
-        chekea strat
-        supp
-            si otros azotamentes >50 les cura
-            si el >50 se cura
-        def
-           vis < 70 ataque2
-           vida > 70 ataque 1
-           vida < 30 full defensa
-        att
-           alternar ataque 1 y 2 constantemente
-        todos
-        si vida >15 te habla en ebreo para decirte no me mates porfi uwu
-     */
-
-   private void CuracionEldritch(ArrayList<Enemigo> listaEnemigos){
+   private void CuracionEldritch(ArrayList<Enemigo> listaEnemigos){//si otros azotamentes o el tienen menos de la mitad de la vida les cura
       for(int i = 0; i < listaEnemigos.size(); i++){
          if (listaEnemigos.get(i).getVida() < 10+getFuerza()/2 && listaEnemigos.get(i) instanceof Azotamentes) {
             Calculadora.ataque2(this, listaEnemigos.get(i));

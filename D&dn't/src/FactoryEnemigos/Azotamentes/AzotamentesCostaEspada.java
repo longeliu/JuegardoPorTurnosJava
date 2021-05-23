@@ -14,9 +14,9 @@ public class AzotamentesCostaEspada extends Azotamentes {
     private Ataque ataque1= new AtaqueSinArma();
     private Ataque ataque2;
     private int defensa;
-    private String extra;
+
     private EstrategiaEnemigo estrategia;
-    private Estado estado;
+
 
 
     @Override
@@ -69,10 +69,6 @@ public class AzotamentesCostaEspada extends Azotamentes {
         return defensa;
     }
 
-    @Override
-    public String getExtra() {
-        return extra;
-    }
 
     @Override
     public void setEstrategia(EstrategiaEnemigo estrategia) {

@@ -1,15 +1,16 @@
 package Character;
 
 import DecoratorAtaque.*;
+import DecoratorAtaque.Guerrero.Empujon;
 import DecoratorAtaque.Guerrero.Maza;
 import DecoratorAtaque.Mago.Baston;
 import DecoratorAtaque.Mago.SaetaDeFuego;
+import DecoratorAtaque.Picaro.Cegar;
 import DecoratorAtaque.Picaro.Espada;
 import State.Estado;
 
 import java.util.Scanner;
 
-//crear get bonuses
 public class Player implements Character{
 
     private int fuerza;
@@ -21,11 +22,10 @@ public class Player implements Character{
     private Ataque ataque1;
     private Ataque ataque2;
     private int defensa;
-    private String extra;
-
     private Estado estado;
 
-    public Player(){
+    public Player(){ //Constructor para seleccionar clase (diferentes estadisticas)
+        this.estado = new Estado();
         Scanner entrada = new Scanner(System.in);
         System.out.println("Seleccione su arquetipo:\n1-Guerrero\n2-Mago\n3-Pícaro");
         int seleccion=entrada.nextInt();
@@ -40,7 +40,7 @@ public class Player implements Character{
                 picaro();
                 break;
         }
-        entrada.close();
+
     }
 
     @Override
@@ -80,7 +80,11 @@ public class Player implements Character{
 
     @Override
     public int getArmadura() {
-        return 0;
+        return this.armadura;
+    }
+
+    public String getNombre(){
+        return "Jugador";
     }
 
     @Override
@@ -98,41 +102,44 @@ public class Player implements Character{
         return defensa;
     }
 
-    @Override
-    public String getExtra() {
-        return null;
+    public Estado getEstado() {
+        return estado;
     }
 
-    private void guerrero(){
+    private void guerrero(){//Clase que destaca por su fuerza
         System.out.println("Guerrero");
-        this.fuerza=3;
-        this.destreza=1;
-        this.inteligencia=-1;
+        this.fuerza=4;
+        this.destreza=2;
+        this.inteligencia=1;
         this.vida=10+fuerza;
         this.defensa=fuerza;
-        this.ataque1=new Espada(new AtaqueSinArma());
+        this.armadura=10+destreza;
+        this.ataque1=new Empujon(new AtaqueSinArma());
         this.ataque2=new Maza(new AtaqueSinArma());
+
     }
 
-    private void mago(){
+    private void mago(){//Clase que destaca por su inteligencia
         System.out.println("Mago");
-        this.fuerza=-1;
-        this.destreza=1;
-        this.inteligencia=3;
+        this.fuerza=1;
+        this.destreza=2;
+        this.inteligencia=4;
         this.vida=10+fuerza;
         this.defensa=fuerza;
-        this.ataque1=new Baston(new AtaqueSinArma());
-        this.ataque2=new SaetaDeFuego(new Baston(new AtaqueSinArma()));
+        this.armadura=10+destreza;
+        this.ataque1=new SaetaDeFuego(new AtaqueSinArma());
+        this.ataque2=new Baston(new Baston(new AtaqueSinArma()));
     }
 
-    private void picaro(){
+    private void picaro(){//Clase que destaca por su destreza
         System.out.println("Pícaro");
-        this.fuerza=1;
-        this.destreza=3;
-        this.inteligencia=-1;
+        this.fuerza=2;
+        this.destreza=4;
+        this.inteligencia=1;
+        this.armadura=10+destreza;
         this.defensa=fuerza;
-        this.ataque1=new Espada(new AtaqueSinArma());
-        this.ataque2=new Maza(new AtaqueSinArma());
+        this.ataque1=new Cegar(new AtaqueSinArma());
+        this.ataque2=new Espada(new AtaqueSinArma());
     }
 
 

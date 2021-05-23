@@ -16,7 +16,7 @@ public class Maza extends DecoratorAtack {
 
     @Override
     public int getDamage() {
-        return 0;
+        return 3;
     }
 
     @Override

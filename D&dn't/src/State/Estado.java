@@ -11,21 +11,7 @@ public class Estado {
         this.estadoActual = this.estadoActual.siguienteEstado();
     }
 
-    public String getEstadoActual() {
-        if (estadoActual.queTurnoSoy() == 0) {
-            return "PersonajeNormal";
-        }
-
-        else if (estadoActual.queTurnoSoy() == 1) {
-            return "PersonajeQuemado";
-        }
-
-        else if (estadoActual.queTurnoSoy() == 2) {
-            return "PersonajeCongelado";
-        }
-
-        else{
-            return "Error";
-        }
+    public EstadoPersonaje getEstadoActual(){
+        return estadoActual;
     }
 }

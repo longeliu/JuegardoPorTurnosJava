@@ -1,8 +1,8 @@
 package State;
 
-interface EstadoPersonaje {
+public interface EstadoPersonaje {
     EstadoPersonaje siguienteEstado();
 
 
-    int queTurnoSoy();
+    public String queEstadoSoy();
 }

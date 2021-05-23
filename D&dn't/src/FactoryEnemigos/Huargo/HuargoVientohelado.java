@@ -14,8 +14,6 @@ public class HuargoVientohelado extends Huargo{
     private Ataque ataque1= new AtaqueSinArma();
     private Ataque ataque2;
     private int defensa;
-    private String extra;
-    private Estado estado;
     private EstrategiaEnemigo estrategia;
 
     @Override
@@ -66,11 +64,6 @@ public class HuargoVientohelado extends Huargo{
     @Override
     public int getDefensa() {
         return defensa;
-    }
-
-    @Override
-    public String getExtra() {
-        return extra;
     }
 
     @Override

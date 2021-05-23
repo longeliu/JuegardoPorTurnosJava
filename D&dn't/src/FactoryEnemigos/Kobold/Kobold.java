@@ -13,6 +13,7 @@ public abstract class Kobold extends Enemigo {
 
     public final void templateEnemigo(Character objetivo,ArrayList<Enemigo> listaEnemigos){
         String estrategia = getEstrategia().getNombreEstrategia();
+        this.setArmadura(10 + getDestreza());
 
         switch (estrategia){
             case "ATQ":
