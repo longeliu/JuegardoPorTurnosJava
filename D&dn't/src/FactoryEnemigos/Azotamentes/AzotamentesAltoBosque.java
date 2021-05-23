@@ -2,9 +2,7 @@ package FactoryEnemigos.Azotamentes;
 
 import DecoratorAtaque.Ataque;
 import DecoratorAtaque.AtaqueSinArma;
-import State.Estado;
 import Strategy.EstrategiaEnemigo;
-import Strategy.Huargo.HuargoEstrategiaATQ;
 
 public class AzotamentesAltoBosque extends Azotamentes {
     private int fuerza=1;
