@@ -56,4 +56,8 @@ public abstract class Azotamentes extends Enemigo {
          }
       }
    }   
+
+   public final String getNombre() {
+      return "Azotamentes";
+   }
 }

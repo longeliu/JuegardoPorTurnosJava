@@ -26,7 +26,6 @@ public class Player implements Character{
     private Estado estado;
 
     public Player(){
-        //TODO cierra el scanner
         Scanner entrada = new Scanner(System.in);
         System.out.println("Seleccione su arquetipo:\n1-Guerrero\n2-Mago\n3-Pícaro");
         int seleccion=entrada.nextInt();
@@ -41,7 +40,7 @@ public class Player implements Character{
                 picaro();
                 break;
         }
-
+        entrada.close();
     }
 
     @Override

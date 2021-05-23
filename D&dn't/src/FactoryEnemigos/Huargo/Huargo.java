@@ -21,4 +21,7 @@ public abstract class Huargo extends Enemigo{
         si vida > 20 ataque 2
 
      */
+    public final String getNombre() {
+        return "Huargo";
+    }
 }

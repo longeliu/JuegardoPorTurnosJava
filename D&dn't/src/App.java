@@ -1,22 +1,25 @@
-import Calculator.Calculadora;
 import Character.Player;
-import FactoryEnemigos.Azotamentes.Azotamentes;
-import FactoryEnemigos.Huargo.Huargo;
-import FactoryEnemigos.Kobold.Kobold;
-import FactoryMundos.AltoBosque;
-import FactoryMundos.EnemyFactory;
-import Character.Enemigo;
-import Strategy.Huargo.HuargoEstrategiaATQ;
-import Strategy.Kobold.KoboldEstrategiaATQ;
-import Strategy.Kobold.KoboldEstrategiaDEF;
-import Strategy.Kobold.KoboldEstrategiaSUPP;
-
-import java.util.ArrayList;
 
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Player persojane = new Player();
+        Player personaje = new Player();
+        int gameOver = 0;
+        int n_rondas = 0;
+        do {
+            System.out.println("Estas en la ronda " + n_rondas);
+            gameOver = GameManager.ronda(personaje, n_rondas);    
+            n_rondas++;
+        } while (gameOver == 1);
+        System.out.println("GAME OVER");
+
+
+
+
+
+
+
+        /*Player persojane = new Player();
         EnemyFactory factory = new AltoBosque();
         Kobold kobold = factory.creaKobold();
 
@@ -43,7 +46,7 @@ public class App {
         Calculadora.ataque1(persojane,kobold);
         Calculadora.ataque1(persojane,kobold);
         Calculadora.ataque2(persojane,kobold);
-        listaEnemigos.get(1).templateEnemigo(persojane,listaEnemigos);
+        listaEnemigos.get(1).templateEnemigo(persojane,listaEnemigos);*/
 
 
     }

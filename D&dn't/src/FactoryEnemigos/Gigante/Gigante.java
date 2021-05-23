@@ -36,4 +36,8 @@ public abstract class Gigante extends Enemigo {
     si vida > 30
     ataque 2 1 vez, si sube puede volver a usarlo
      */
+
+    public final String getNombre() {
+        return "Gigante";
+     }
 }

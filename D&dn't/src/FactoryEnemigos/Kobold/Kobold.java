@@ -66,5 +66,8 @@ public abstract class Kobold extends Enemigo {
 
      */
 
+    public final String getNombre() {
+        return "Kobold";
+    }
 
 }

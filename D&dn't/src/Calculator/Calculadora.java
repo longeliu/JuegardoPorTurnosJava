@@ -54,7 +54,7 @@ public class Calculadora {
 
 
     public static void defensa(Character atacante){
-        atacante.setArmadura(atacante.getArmadura()+ atacante.getDefensa());
+        atacante.setArmadura(atacante.getArmadura() + atacante.getDefensa());
     }
 
     private static int calculoImpacto(String tipoAtaque,Character personaje){
