@@ -3,23 +3,23 @@ package DecoratorAtaque.Picaro;
 import DecoratorAtaque.Ataque;
 import DecoratorAtaque.DecoratorAtack;
 
-public class EspadaCortante extends DecoratorAtack {
-    public EspadaCortante(Ataque ataque) {
+public class Cegar extends DecoratorAtack {
+    public Cegar(Ataque ataque) {
         super(ataque);
     }
 
     @Override
     public String getTipoataque() {
-        return getAtaque().getTipoataque();
+        return "Destreza";
     }
 
     @Override
     public int getDamage() {
-        return getAtaque().getDamage()+2;
+        return getAtaque().getDamage();
     }
 
     @Override
     public String getNombre() {
-        return "Ataque con espada cortante";
+        return "Cegar";
     }
 }

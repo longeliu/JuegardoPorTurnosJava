@@ -6,13 +6,8 @@ class PersonajeNormal implements EstadoPersonaje {
         return new PersonajeQuemado();
     }
 
-
-    public EstadoPersonaje estadoCongelado(){
-        return new PersonajeCongelado();
-    }
-
     @Override
-    public int queTurnoSoy() {
-        return 0;
+    public String queEstadoSoy() {
+        return "Estas bien.";
     }
 }

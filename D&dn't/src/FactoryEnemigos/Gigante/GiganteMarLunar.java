@@ -14,8 +14,7 @@ public class GiganteMarLunar extends Gigante{
     private Ataque ataque1= new AtaqueSinArma();
     private Ataque ataque2;
     private int defensa;
-    private String extra;
-    private Estado estado;
+
     private EstrategiaEnemigo estrategia;
 
     @Override
@@ -68,10 +67,6 @@ public class GiganteMarLunar extends Gigante{
         return defensa;
     }
 
-    @Override
-    public String getExtra() {
-        return extra;
-    }
 
     @Override
     public void setEstrategia(EstrategiaEnemigo estrategia) {

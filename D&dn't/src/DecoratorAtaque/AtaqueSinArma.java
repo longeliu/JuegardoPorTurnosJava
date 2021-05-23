@@ -1,6 +1,6 @@
 package DecoratorAtaque;
 
-public class AtaqueSinArma implements Ataque{
+public class AtaqueSinArma implements Ataque{//Ataque mas basico daño minimo
 
     public String getTipoataque() {
         return "Fuerza";

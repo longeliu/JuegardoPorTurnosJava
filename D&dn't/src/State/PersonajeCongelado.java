@@ -7,7 +7,7 @@ class PersonajeCongelado implements EstadoPersonaje {
     }
 
     @Override
-    public int queTurnoSoy() {
-        return 2;
+    public String queEstadoSoy() {
+        return "Tienes frio.";
     }
 }
