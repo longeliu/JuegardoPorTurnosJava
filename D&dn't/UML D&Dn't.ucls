@@ -1,0 +1,1504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="DecoratorAtaque.Enemigos.Huargo.ATQ.MordiscoIgneo" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Huargo/ATQ/MordiscoIgneo.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="177" x="-679" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="FactoryEnemigos.Azotamentes.AzotamentesVientohelado" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryEnemigos/Azotamentes/AzotamentesVientohelado.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="405" width="208" x="6127" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="DecoratorAtaque.Enemigos.Huargo.DEF.Placaje" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Huargo/DEF/Placaje.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="179" x="-462" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="Strategy.Kobold.KoboldEstrategiaSUPP" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/Strategy/Kobold/KoboldEstrategiaSUPP.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="165" x="10095" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="DecoratorAtaque.Enemigos.Gigante.DEF.PalmetazoFuerte" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Gigante/DEF/PalmetazoFuerte.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="181" x="-243" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="DecoratorAtaque.Enemigos.Azotamentes.SUPP.RegeneracionMedio" 
+    project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Azotamentes/SUPP/RegeneracionMedio.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="209" x="-22" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="DecoratorAtaque.AtaqueSinArma" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/AtaqueSinArma.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="133" x="5954" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="DecoratorAtaque.Enemigos.Gigante.ATQ.Patada" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Gigante/ATQ/Patada.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="179" x="227" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="DecoratorAtaque.DecoratorAtack" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/DecoratorAtack.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="145" x="3943" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="10" language="java" name="FactoryMundos.EnemyFactory" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryMundos/EnemyFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="187" x="6105" y="581"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="11" language="java" name="Strategy.Gigante.GiganteEstrategiaSUPP" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/Strategy/Gigante/GiganteEstrategiaSUPP.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="165" x="10300" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="DecoratorAtaque.Enemigos.Kobold.SUPP.Curacion" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Kobold/SUPP/Curacion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="183" x="446" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="FactoryEnemigos.Gigante.GiganteCostaEspada" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryEnemigos/Gigante/GiganteCostaEspada.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="208" x="8607" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="FactoryEnemigos.Azotamentes.Azotamentes" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryEnemigos/Azotamentes/Azotamentes.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="284" x="6623" y="581"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="FactoryMundos.ValleVientohelado" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryMundos/ValleVientohelado.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="187" x="5764" y="262"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="DecoratorAtaque.Enemigos.Gigante.SUPP.RunasFuerte" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Gigante/SUPP/RunasFuerte.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="187" x="669" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="FactoryEnemigos.Kobold.KoboldAltoBosque" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryEnemigos/Kobold/KoboldAltoBosque.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="208" x="9599" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="FactoryEnemigos.Gigante.GiganteMarLunar" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryEnemigos/Gigante/GiganteMarLunar.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="208" x="8111" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="Character.Enemigo" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/Character/Enemigo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="292" x="7094" y="262"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="Strategy.Huargo.HuargoEstrategiaSUPP" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/Strategy/Huargo/HuargoEstrategiaSUPP.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="165" x="10505" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="DecoratorAtaque.Picaro.Cegar" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Picaro/Cegar.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="133" x="896" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="DecoratorAtaque.Enemigos.Huargo.SUPP.DescansoMedio" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Huargo/SUPP/DescansoMedio.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="185" x="1069" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="DecoratorAtaque.Enemigos.Azotamentes.ATQ.PsiquicoFuerte" 
+    project="D&amp;dn&apos;t" file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Azotamentes/ATQ/PsiquicoFuerte.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="201" x="1294" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="DecoratorAtaque.Picaro.Espada" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Picaro/Espada.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="133" x="1535" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="FactoryEnemigos.Kobold.KoboldCostaEspada" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryEnemigos/Kobold/KoboldCostaEspada.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="208" x="9847" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="Strategy.Kobold.KoboldEstrategiaDEF" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/Strategy/Kobold/KoboldEstrategiaDEF.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="165" x="10710" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="State.Estado" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/State/Estado.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="197" x="12607" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="DecoratorAtaque.Enemigos.Gigante.ATQ.PatadaMedio" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Gigante/ATQ/PatadaMedio.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="179" x="1708" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="DecoratorAtaque.Enemigos.Gigante.DEF.Palmetazo" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Gigante/DEF/Palmetazo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="181" x="1927" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="FactoryEnemigos.Gigante.GiganteVientohelado" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryEnemigos/Gigante/GiganteVientohelado.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="208" x="8855" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="Strategy.Gigante.GiganteEstrategiaATQ" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/Strategy/Gigante/GiganteEstrategiaATQ.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="165" x="10915" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="DecoratorAtaque.Enemigos.Azotamentes.DEF.TentaculoMedio" 
+    project="D&amp;dn&apos;t" file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Azotamentes/DEF/TentaculoMedio.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="203" x="2148" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="DecoratorAtaque.Enemigos.Gigante.DEF.PalmetazoMedio" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Gigante/DEF/PalmetazoMedio.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="181" x="2391" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="DecoratorAtaque.Mago.SaetaDeFuego" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Mago/SaetaDeFuego.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="140" x="2612" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="FactoryMundos.AltoBosque" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryMundos/AltoBosque.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="187" x="5991" y="262"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="DecoratorAtaque.Enemigos.Gigante.SUPP.RunasMedio" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Gigante/SUPP/RunasMedio.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="187" x="2792" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="DecoratorAtaque.Enemigos.Azotamentes.ATQ.Psiquico" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Azotamentes/ATQ/Psiquico.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="201" x="3019" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="DecoratorAtaque.Enemigos.Huargo.SUPP.DescansoFuerte" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Huargo/SUPP/DescansoFuerte.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="185" x="3260" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="FactoryEnemigos.Huargo.Huargo" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryEnemigos/Huargo/Huargo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="284" x="7367" y="581"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="DecoratorAtaque.Enemigos.Kobold.ATQ.EspadaAfilada" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Kobold/ATQ/EspadaAfilada.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="175" x="3485" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="Strategy.Kobold.KoboldEstrategiaATQ" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/Strategy/Kobold/KoboldEstrategiaATQ.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="165" x="11120" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="FactoryMundos.CostaDeLaEspada" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryMundos/CostaDeLaEspada.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="187" x="6218" y="262"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="FactoryEnemigos.Huargo.HuargoCostaEspada" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryEnemigos/Huargo/HuargoCostaEspada.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="208" x="7615" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="FactoryEnemigos.Kobold.Kobold" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryEnemigos/Kobold/Kobold.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="284" x="9351" y="581"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="DecoratorAtaque.Enemigos.Azotamentes.DEF.TentaculoFuerte" 
+    project="D&amp;dn&apos;t" file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Azotamentes/DEF/TentaculoFuerte.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="203" x="3700" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="State.PersonajeNormal" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/State/PersonajeNormal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="194" x="12844" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="FactoryEnemigos.Huargo.HuargoMarLunar" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryEnemigos/Huargo/HuargoMarLunar.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="208" x="7863" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="FactoryEnemigos.Gigante.Gigante" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryEnemigos/Gigante/Gigante.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="284" x="8359" y="581"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="49" language="java" name="State.EstadoPersonaje" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/State/EstadoPersonaje.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="194" x="12961" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="50" language="java" name="Strategy.EstrategiaEnemigo" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/Strategy/EstrategiaEnemigo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="165" x="9377" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="51" language="java" name="FactoryEnemigos.Huargo.HuargoVientohelado" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryEnemigos/Huargo/HuargoVientohelado.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="208" x="7367" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="52" language="java" name="DecoratorAtaque.Enemigos.Kobold.SUPP.CuracionMedia" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Kobold/SUPP/CuracionMedia.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="183" x="3943" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="53" language="java" name="FactoryEnemigos.Kobold.KoboldVientohelado" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryEnemigos/Kobold/KoboldVientohelado.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="208" x="9351" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="54" language="java" name="DecoratorAtaque.Enemigos.Azotamentes.DEF.Tentaculo" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Azotamentes/DEF/Tentaculo.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="203" x="4166" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="55" language="java" name="FactoryEnemigos.Azotamentes.AzotamentesMarLunar" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryEnemigos/Azotamentes/AzotamentesMarLunar.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="405" width="208" x="6375" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="56" language="java" name="FactoryMundos.MarLunar" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryMundos/MarLunar.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="187" x="6445" y="262"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="57" language="java" name="DecoratorAtaque.Enemigos.Huargo.DEF.PlacajeIgneo" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Huargo/DEF/PlacajeIgneo.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="179" x="4409" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="58" language="java" name="DecoratorAtaque.Enemigos.Huargo.SUPP.Descanso" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Huargo/SUPP/Descanso.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="185" x="4628" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="59" language="java" name="Strategy.Huargo.HuargoEstrategiaATQ" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/Strategy/Huargo/HuargoEstrategiaATQ.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="165" x="11325" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="60" language="java" name="DecoratorAtaque.Guerrero.Empujon" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Guerrero/Empujon.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="133" x="4853" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="61" language="java" name="Strategy.Gigante.GiganteEstrategiaDEF" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/Strategy/Gigante/GiganteEstrategiaDEF.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="165" x="11530" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="62" language="java" name="DecoratorAtaque.Enemigos.Gigante.ATQ.PatadaFuerte" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Gigante/ATQ/PatadaFuerte.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="179" x="5026" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="63" language="java" name="FactoryEnemigos.Kobold.KoboldMarLunar" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryEnemigos/Kobold/KoboldMarLunar.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="208" x="9103" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="64" language="java" name="State.PersonajeCongelado" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/State/PersonajeCongelado.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="194" x="13078" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="65" language="java" name="DecoratorAtaque.Enemigos.Kobold.SUPP.CuracionFuerte" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Kobold/SUPP/CuracionFuerte.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="183" x="5245" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="66" language="java" name="DecoratorAtaque.Enemigos.Azotamentes.SUPP.Regeneracion" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Azotamentes/SUPP/Regeneracion.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="209" x="5468" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="67" language="java" name="DecoratorAtaque.Mago.Baston" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Mago/Baston.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="133" x="5717" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="68" language="java" name="DecoratorAtaque.Enemigos.Azotamentes.SUPP.RegeneracionFuerte" 
+    project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Azotamentes/SUPP/RegeneracionFuerte.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="209" x="5890" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="69" language="java" name="Character.Character" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/Character/Character.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="131" x="3772" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="70" language="java" name="Strategy.Azotamentes.AzotamentesEstrategiaATQ" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/Strategy/Azotamentes/AzotamentesEstrategiaATQ.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="180" x="11735" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="71" language="java" name="Strategy.Huargo.HuargoEstrategiaDEF" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/Strategy/Huargo/HuargoEstrategiaDEF.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="165" x="11955" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="72" language="java" name="FactoryEnemigos.Azotamentes.AzotamentesAltoBosque" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryEnemigos/Azotamentes/AzotamentesAltoBosque.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="405" width="208" x="6871" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="73" language="java" name="FactoryEnemigos.Azotamentes.AzotamentesCostaEspada" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryEnemigos/Azotamentes/AzotamentesCostaEspada.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="405" width="208" x="6623" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="74" language="java" name="DecoratorAtaque.Enemigos.Gigante.SUPP.Runas" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Gigante/SUPP/Runas.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="187" x="6139" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="75" language="java" name="DecoratorAtaque.Enemigos.Huargo.ATQ.MordiscoHelado" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Huargo/ATQ/MordiscoHelado.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="177" x="6366" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="76" language="java" name="DecoratorAtaque.Enemigos.Kobold.ATQ.Espada" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Kobold/ATQ/Espada.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="175" x="6583" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="77" language="java" name="DecoratorAtaque.Enemigos.Azotamentes.ATQ.PsiquicoMedio" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Azotamentes/ATQ/PsiquicoMedio.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="201" x="6798" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="78" language="java" name="DecoratorAtaque.Enemigos.Huargo.ATQ.Mordisco" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Huargo/ATQ/Mordisco.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="177" x="7039" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="79" language="java" name="DecoratorAtaque.Guerrero.Maza" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Guerrero/Maza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="133" x="7256" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="80" language="java" name="FactoryEnemigos.Gigante.GiganteAltoBosque" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryEnemigos/Gigante/GiganteAltoBosque.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="208" x="8359" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="81" language="java" name="DecoratorAtaque.Ataque" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Ataque.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="133" x="7863" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="82" language="java" name="GameManager" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/GameManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="259" x="442" y="262"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="83" language="java" name="FactoryEnemigos.Huargo.HuargoAltoBosque" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/FactoryEnemigos/Huargo/HuargoAltoBosque.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="208" x="7119" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="84" language="java" name="State.PersonajeQuemado" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/State/PersonajeQuemado.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="194" x="13312" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="85" language="java" name="DecoratorAtaque.Enemigos.Huargo.DEF.PlacajeHelado" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Huargo/DEF/PlacajeHelado.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="179" x="7429" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="86" language="java" name="Character.Player" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/Character/Player.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="495" width="148" x="5914" y="581"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="87" language="java" name="Constantes" project="D&amp;dn&apos;t" file="/D&amp;dn&apos;t/src/Constantes.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="89" x="1863" y="262"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="88" language="java" name="Strategy.Azotamentes.AzotamentesEstrategiaSUPP" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/Strategy/Azotamentes/AzotamentesEstrategiaSUPP.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="189" x="12160" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="89" language="java" name="Strategy.Azotamentes.AzotamentesEstrategiaDEF" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/Strategy/Azotamentes/AzotamentesEstrategiaDEF.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="178" x="12389" y="1116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="90" language="java" name="App" project="D&amp;dn&apos;t" file="/D&amp;dn&apos;t/src/App.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="3115" y="262"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="91" language="java" name="Calculator.Calculadora" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/Calculator/Calculadora.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="198" x="4392" y="262"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="92" language="java" name="DecoratorAtaque.Enemigos.Kobold.ATQ.EspadaMagica" project="D&amp;dn&apos;t" 
+    file="/D&amp;dn&apos;t/src/DecoratorAtaque/Enemigos/Kobold/ATQ/EspadaMagica.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="175" x="7648" y="1561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="93">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="94" name="ataque"/>      
+      <multiplicity id="95" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="96">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="97">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="98">    
+    <end type="SOURCE" refId="83"/>    
+    <end type="TARGET" refId="39"/>  
+  </generalization>  
+  <generalization id="99">    
+    <end type="SOURCE" refId="75"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <realization id="100">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <realization id="101">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="50"/>  
+  </realization>  
+  <association id="102">    
+    <end type="SOURCE" refId="72" navigable="false">      
+      <attribute id="103" name="ataque1"/>      
+      <multiplicity id="104" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="105">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="44"/>  
+  </generalization>  
+  <association id="106">    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="107" name="estrategia"/>      
+      <multiplicity id="108" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="109">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="48"/>  
+  </generalization>  
+  <generalization id="110">    
+    <end type="SOURCE" refId="73"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <association id="111">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="112" name="estrategia"/>      
+      <multiplicity id="113" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="114">    
+    <end type="SOURCE" refId="61"/>    
+    <end type="TARGET" refId="50"/>  
+  </realization>  
+  <association id="115">    
+    <bendpoint x="5923" y="1116"/>    
+    <end type="SOURCE" refId="86" navigable="false">      
+      <attribute id="116" name="ataque2"/>      
+      <multiplicity id="117" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="118">    
+    <end type="SOURCE" refId="84"/>    
+    <end type="TARGET" refId="49"/>  
+  </realization>  
+  <association id="119">    
+    <end type="SOURCE" refId="80" navigable="false">      
+      <attribute id="120" name="estrategia"/>      
+      <multiplicity id="121" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="122">    
+    <end type="SOURCE" refId="73" navigable="false">      
+      <attribute id="123" name="estrategia"/>      
+      <multiplicity id="124" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="125">    
+    <end type="SOURCE" refId="74"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="126">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="127" name="ataque1"/>      
+      <multiplicity id="128" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="129">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="50"/>  
+  </realization>  
+  <realization id="130">    
+    <end type="SOURCE" refId="89"/>    
+    <end type="TARGET" refId="50"/>  
+  </realization>  
+  <association id="131">    
+    <end type="SOURCE" refId="86" navigable="false">      
+      <attribute id="132" name="estado"/>      
+      <multiplicity id="133" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="134">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="135" name="ataque1"/>      
+      <multiplicity id="136" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="137">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="39"/>  
+  </generalization>  
+  <generalization id="138">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="139">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="48"/>  
+  </generalization>  
+  <generalization id="140">    
+    <end type="SOURCE" refId="57"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="141">    
+    <end type="SOURCE" refId="91" navigable="false">      
+      <attribute id="142" name="instancia"/>      
+      <multiplicity id="143" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="91" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="144">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <association id="145">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="146" name="ataque1"/>      
+      <multiplicity id="147" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="148">    
+    <end type="SOURCE" refId="63"/>    
+    <end type="TARGET" refId="44"/>  
+  </generalization>  
+  <association id="149">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="150" name="estrategia"/>      
+      <multiplicity id="151" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="152">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <realization id="153">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="50"/>  
+  </realization>  
+  <generalization id="154">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <realization id="155">    
+    <end type="SOURCE" refId="88"/>    
+    <end type="TARGET" refId="50"/>  
+  </realization>  
+  <association id="156">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="157" name="ataque1"/>      
+      <multiplicity id="158" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="159">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="160" name="ataque1"/>      
+      <multiplicity id="161" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="162">    
+    <end type="SOURCE" refId="80"/>    
+    <end type="TARGET" refId="48"/>  
+  </generalization>  
+  <realization id="163">    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="50"/>  
+  </realization>  
+  <generalization id="164">    
+    <end type="SOURCE" refId="62"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="165">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="44"/>  
+  </generalization>  
+  <generalization id="166">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="167">    
+    <end type="SOURCE" refId="60"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <realization id="168">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <association id="169">    
+    <end type="SOURCE" refId="80" navigable="false">      
+      <attribute id="170" name="ataque1"/>      
+      <multiplicity id="171" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="172">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="50"/>  
+  </realization>  
+  <generalization id="173">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="174">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="175">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <association id="176">    
+    <end type="SOURCE" refId="73" navigable="false">      
+      <attribute id="177" name="ataque1"/>      
+      <multiplicity id="178" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="179">    
+    <end type="SOURCE" refId="58"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="180">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="181">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="48"/>  
+  </generalization>  
+  <association id="182">    
+    <end type="SOURCE" refId="63" navigable="false">      
+      <attribute id="183" name="estrategia"/>      
+      <multiplicity id="184" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="185">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="186">    
+    <end type="SOURCE" refId="51" navigable="false">      
+      <attribute id="187" name="ataque1"/>      
+      <multiplicity id="188" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="189">    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="190" name="estrategia"/>      
+      <multiplicity id="191" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="192">    
+    <end type="SOURCE" refId="56"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <realization id="193">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="81"/>  
+  </realization>  
+  <realization id="194">    
+    <bendpoint x="5442" y="581"/>    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="69"/>  
+  </realization>  
+  <realization id="195">    
+    <end type="SOURCE" refId="70"/>    
+    <end type="TARGET" refId="50"/>  
+  </realization>  
+  <realization id="196">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <generalization id="197">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <realization id="198">    
+    <end type="SOURCE" refId="71"/>    
+    <end type="TARGET" refId="50"/>  
+  </realization>  
+  <generalization id="199">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="200">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="201">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="202">    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="203" name="ataque1"/>      
+      <multiplicity id="204" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="205">    
+    <end type="SOURCE" refId="83" navigable="false">      
+      <attribute id="206" name="ataque1"/>      
+      <multiplicity id="207" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="208">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="209">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="210" name="estrategia"/>      
+      <multiplicity id="211" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="212">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="213">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <realization id="214">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="50"/>  
+  </realization>  
+  <generalization id="215">    
+    <end type="SOURCE" refId="67"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="216">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <realization id="217">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="81"/>  
+  </realization>  
+  <association id="218">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="219" name="ataque1"/>      
+      <multiplicity id="220" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="221">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <association id="222">    
+    <bendpoint x="5902" y="1116"/>    
+    <end type="SOURCE" refId="86" navigable="false">      
+      <attribute id="223" name="ataque1"/>      
+      <multiplicity id="224" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="225">    
+    <end type="SOURCE" refId="63" navigable="false">      
+      <attribute id="226" name="ataque1"/>      
+      <multiplicity id="227" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="228">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="229" name="ataque1"/>      
+      <multiplicity id="230" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="231">    
+    <end type="SOURCE" refId="83" navigable="false">      
+      <attribute id="232" name="estrategia"/>      
+      <multiplicity id="233" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="234">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="235" name="estrategia"/>      
+      <multiplicity id="236" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="237">    
+    <end type="SOURCE" refId="51" navigable="false">      
+      <attribute id="238" name="estrategia"/>      
+      <multiplicity id="239" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="240">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="241">    
+    <end type="SOURCE" refId="48"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <generalization id="242">    
+    <end type="SOURCE" refId="78"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <realization id="243">    
+    <end type="SOURCE" refId="86"/>    
+    <end type="TARGET" refId="69"/>  
+  </realization>  
+  <association id="244">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="245" name="estadoActual"/>      
+      <multiplicity id="246" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="49" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="247">    
+    <end type="SOURCE" refId="92"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="248">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="249">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="250">    
+    <end type="SOURCE" refId="66"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="251">    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="252" name="ataque1"/>      
+      <multiplicity id="253" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="254">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="49"/>  
+  </realization>  
+  <association id="255">    
+    <end type="SOURCE" refId="72" navigable="false">      
+      <attribute id="256" name="estrategia"/>      
+      <multiplicity id="257" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="258">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="259" name="estrategia"/>      
+      <multiplicity id="260" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="261">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="262">    
+    <end type="SOURCE" refId="51"/>    
+    <end type="TARGET" refId="39"/>  
+  </generalization>  
+  <association id="263">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="264" name="estrategia"/>      
+      <multiplicity id="265" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="266">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="267">    
+    <end type="SOURCE" refId="55" navigable="false">      
+      <attribute id="268" name="ataque1"/>      
+      <multiplicity id="269" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="270">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="271">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="39"/>  
+  </generalization>  
+  <generalization id="272">    
+    <end type="SOURCE" refId="79"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <realization id="273">    
+    <end type="SOURCE" refId="64"/>    
+    <end type="TARGET" refId="49"/>  
+  </realization>  
+  <generalization id="274">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="44"/>  
+  </generalization>  
+  <realization id="275">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="50"/>  
+  </realization>  
+  <generalization id="276">    
+    <end type="SOURCE" refId="76"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="277">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="278" name="estrategia"/>      
+      <multiplicity id="279" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="280">    
+    <end type="SOURCE" refId="72"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="281">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <generalization id="282">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="283">    
+    <end type="SOURCE" refId="85"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="284">    
+    <end type="SOURCE" refId="65"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="285">    
+    <end type="SOURCE" refId="77"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <association id="286">    
+    <end type="SOURCE" refId="55" navigable="false">      
+      <attribute id="287" name="estrategia"/>      
+      <multiplicity id="288" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
