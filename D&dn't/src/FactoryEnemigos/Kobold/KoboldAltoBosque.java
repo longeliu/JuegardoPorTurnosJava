@@ -2,7 +2,6 @@ package FactoryEnemigos.Kobold;
 
 import DecoratorAtaque.Ataque;
 import DecoratorAtaque.AtaqueSinArma;
-import State.Estado;
 import Strategy.EstrategiaEnemigo;
 
 
@@ -11,11 +10,10 @@ public class KoboldAltoBosque extends Kobold {
     private int fuerza=1;
     private int destreza=1;
     private int inteligencia=1;
-    private int vida=10;
-    private int armadura=10;
+    private int vida=3;
+    private int armadura=10+destreza;
     private Ataque ataque1= new AtaqueSinArma();
-    private Ataque ataque2;
-    private int defensa;
+    private int defensa=fuerza;
     private EstrategiaEnemigo estrategia;
 
 
