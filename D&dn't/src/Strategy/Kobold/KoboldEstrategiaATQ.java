@@ -7,7 +7,7 @@ import DecoratorAtaque.Enemigos.Kobold.ATQ.EspadaAfilada;
 import DecoratorAtaque.Enemigos.Kobold.ATQ.EspadaMagica;
 import Strategy.EstrategiaEnemigo;
 
-public class KoboldEstrategiaATQ implements EstrategiaEnemigo{
+public class KoboldEstrategiaATQ implements EstrategiaEnemigo{//Selecciona un ataque diferente para los kobolds en funcion del mundo
     private String nombre = "ATQ";
 
     public Ataque getAtaque2(int mundo){

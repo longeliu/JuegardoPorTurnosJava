@@ -5,42 +5,13 @@ import Character.Player;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Player personaje = new Player();
-        int gameOver = 0;
-        int n_rondas = 0;
+        Player personaje = new Player();//genera el personaje jugador
+        int gameOver = 0;//si game over es 0 se acaba la partida
+        int n_puntos = 0;//contador de puntos para pasar de mundo
         do {
-            System.out.println("Estas en la d");
-            GameManager.ronda(personaje, n_rondas);    
+            System.out.println("Tienes " + n_puntos + " puntos de experiencia.");
+            gameOver = GameManager.ronda(personaje, n_puntos);
+            n_puntos++;
         } while (gameOver == 1);
-        /*Player persojane = new Player();
-        EnemyFactory factory = new AltoBosque();
-        Kobold kobold = factory.creaKobold();
-
-        Kobold kobold2 = factory.creaKobold();
-
-        int a = kobold.getVida();
-        int b = persojane.getVida();
-
-        System.out.println(kobold.getArmadura());
-
-        Calculadora.instance();
-
-        kobold.setEstrategia(new KoboldEstrategiaATQ());
-        kobold2.setEstrategia(new KoboldEstrategiaSUPP());
-
-
-
-        ArrayList<Enemigo> listaEnemigos = new ArrayList<Enemigo>();
-        listaEnemigos.add(kobold);
-        listaEnemigos.add(kobold2);
-
-        listaEnemigos.get(0).templateEnemigo(persojane,listaEnemigos);
-        listaEnemigos.get(1).templateEnemigo(persojane,listaEnemigos);
-        Calculadora.ataque1(persojane,kobold);
-        Calculadora.ataque1(persojane,kobold);
-        Calculadora.ataque2(persojane,kobold);
-        listaEnemigos.get(1).templateEnemigo(persojane,listaEnemigos);*/
-
-
     }
 }

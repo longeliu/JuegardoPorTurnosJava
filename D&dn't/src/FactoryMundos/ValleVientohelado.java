@@ -9,7 +9,8 @@ import FactoryEnemigos.Huargo.HuargoVientohelado;
 import FactoryEnemigos.Kobold.Kobold;
 import FactoryEnemigos.Kobold.KoboldVientohelado;
 
-public class ValleVientohelado implements EnemyFactory{
+public class ValleVientohelado implements EnemyFactory{//Devuelve un nuevo enemigo del mundo 4
+
     public Kobold creaKobold() {
         return new KoboldVientohelado();
     }

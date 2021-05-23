@@ -9,7 +9,8 @@ import FactoryEnemigos.Huargo.HuargoMarLunar;
 import FactoryEnemigos.Kobold.Kobold;
 import FactoryEnemigos.Kobold.KoboldMarLunar;
 
-public class MarLunar implements EnemyFactory{
+public class MarLunar implements EnemyFactory{//Devuelve un nuevo enemigo del mundo 3
+
     public Kobold creaKobold() {
         return new KoboldMarLunar();
     }

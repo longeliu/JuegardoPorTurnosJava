@@ -7,7 +7,7 @@ import DecoratorAtaque.Enemigos.Gigante.ATQ.PatadaFuerte;
 import DecoratorAtaque.Enemigos.Gigante.ATQ.PatadaMedio;
 import Strategy.EstrategiaEnemigo;
 
-public class GiganteEstrategiaATQ implements EstrategiaEnemigo{
+public class GiganteEstrategiaATQ implements EstrategiaEnemigo{//Selecciona un ataque diferente para los gigantes en funcion del mundo
     private String nombre = "ATQ";
 
     public Ataque getAtaque2(int mundo){

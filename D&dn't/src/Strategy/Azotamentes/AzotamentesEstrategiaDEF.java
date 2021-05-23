@@ -7,7 +7,7 @@ import DecoratorAtaque.Enemigos.Azotamentes.DEF.TentaculoFuerte;
 import DecoratorAtaque.Enemigos.Azotamentes.DEF.TentaculoMedio;
 import Strategy.EstrategiaEnemigo;
 
-public class AzotamentesEstrategiaDEF implements EstrategiaEnemigo{
+public class AzotamentesEstrategiaDEF implements EstrategiaEnemigo{//Selecciona un ataque diferente para los azotamentes en funcion del mundo
     private String nombre = "DEF";
 
     public Ataque getAtaque2(int mundo){

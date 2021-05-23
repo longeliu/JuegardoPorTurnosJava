@@ -7,7 +7,7 @@ import DecoratorAtaque.Enemigos.Huargo.SUPP.DescansoFuerte;
 import DecoratorAtaque.Enemigos.Huargo.SUPP.DescansoMedio;
 import Strategy.EstrategiaEnemigo;
 
-public class HuargoEstrategiaSUPP implements EstrategiaEnemigo{
+public class HuargoEstrategiaSUPP implements EstrategiaEnemigo{//Selecciona un ataque diferente para los huargos en funcion del mundo
     private String nombre = "SUPP";
 
     public Ataque getAtaque2(int mundo){

@@ -7,7 +7,7 @@ import DecoratorAtaque.Enemigos.Kobold.SUPP.CuracionFuerte;
 import DecoratorAtaque.Enemigos.Kobold.SUPP.CuracionMedia;
 import Strategy.EstrategiaEnemigo;
 
-public class KoboldEstrategiaSUPP implements EstrategiaEnemigo{
+public class KoboldEstrategiaSUPP implements EstrategiaEnemigo{//Selecciona un ataque diferente para los kobolds en funcion del mundo
     private String nombre = "SUP";
 
     public Ataque getAtaque2(int mundo){

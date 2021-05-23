@@ -9,7 +9,8 @@ import FactoryEnemigos.Huargo.HuargoAltoBosque;
 import FactoryEnemigos.Kobold.Kobold;
 import FactoryEnemigos.Kobold.KoboldAltoBosque;
 
-public class AltoBosque implements EnemyFactory{
+public class AltoBosque implements EnemyFactory{//Devuelve un nuevo enemigo del mundo 1
+
     public Kobold creaKobold() {
         return new KoboldAltoBosque();
     }

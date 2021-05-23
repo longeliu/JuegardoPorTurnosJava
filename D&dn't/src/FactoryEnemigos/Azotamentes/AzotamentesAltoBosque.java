@@ -65,7 +65,7 @@ public class AzotamentesAltoBosque extends Azotamentes {
 
     @Override
     public int getDefensa() {
-        return fuerza;
+        return defensa;
     }
 
 

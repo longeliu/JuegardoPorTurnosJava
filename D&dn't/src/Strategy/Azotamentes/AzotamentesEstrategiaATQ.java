@@ -10,7 +10,7 @@ import Strategy.EstrategiaEnemigo;
 public class AzotamentesEstrategiaATQ implements EstrategiaEnemigo{
     private String nombre = "ATQ";
 
-    public Ataque getAtaque2(int mundo){
+    public Ataque getAtaque2(int mundo){//Selecciona un ataque diferente para los azotamentes en funcion del mundo
         if (mundo==0){
             return (new AtaqueSinArma());
         }

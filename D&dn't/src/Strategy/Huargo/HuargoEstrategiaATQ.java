@@ -7,7 +7,7 @@ import DecoratorAtaque.Enemigos.Huargo.ATQ.MordiscoHelado;
 import DecoratorAtaque.Enemigos.Huargo.ATQ.MordiscoIgneo;
 import Strategy.EstrategiaEnemigo;
 
-public class HuargoEstrategiaATQ implements EstrategiaEnemigo{
+public class HuargoEstrategiaATQ implements EstrategiaEnemigo{//Selecciona un ataque diferente para los huargos en funcion del mundo
     private String nombre = "ATQ";
 
     public Ataque getAtaque2(int mundo){

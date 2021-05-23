@@ -7,7 +7,7 @@ import DecoratorAtaque.Enemigos.Huargo.DEF.PlacajeHelado;
 import DecoratorAtaque.Enemigos.Huargo.DEF.PlacajeIgneo;
 import Strategy.EstrategiaEnemigo;
 
-public class HuargoEstrategiaDEF implements EstrategiaEnemigo{
+public class HuargoEstrategiaDEF implements EstrategiaEnemigo{//Selecciona un ataque diferente para los huargos en funcion del mundo
     private String nombre = "DEF";
 
     public Ataque getAtaque2(int mundo){

@@ -5,7 +5,7 @@ import FactoryEnemigos.Gigante.Gigante;
 import FactoryEnemigos.Huargo.Huargo;
 import FactoryEnemigos.Kobold.Kobold;
 
-public interface EnemyFactory {
+public interface EnemyFactory {//interfaz factory que contiene los metodos de creaccion
     Kobold creaKobold();
     Gigante creaGigante();
     Azotamentes creaAzotamentes();

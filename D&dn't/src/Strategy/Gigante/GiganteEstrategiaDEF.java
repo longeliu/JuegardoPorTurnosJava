@@ -7,7 +7,7 @@ import DecoratorAtaque.Enemigos.Gigante.DEF.PalmetazoFuerte;
 import DecoratorAtaque.Enemigos.Gigante.DEF.PalmetazoMedio;
 import Strategy.EstrategiaEnemigo;
 
-public class GiganteEstrategiaDEF implements EstrategiaEnemigo{
+public class GiganteEstrategiaDEF implements EstrategiaEnemigo{//Selecciona un ataque diferente para los gigantes en funcion del mundo
     private String nombre = "DEF";
 
     public Ataque getAtaque2(int mundo){

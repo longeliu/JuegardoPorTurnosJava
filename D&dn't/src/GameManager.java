@@ -24,7 +24,6 @@ import Character.Player;
 import FactoryEnemigos.Gigante.Gigante;
 import FactoryEnemigos.Huargo.Huargo;
 import FactoryEnemigos.Kobold.Kobold;
-import State.EstadoPersonaje;
 
 public class GameManager {
     

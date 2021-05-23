@@ -5,13 +5,13 @@ import DecoratorAtaque.AtaqueSinArma;
 import Strategy.EstrategiaEnemigo;
 
 public class HuargoMarLunar extends Huargo{
-    private int fuerza=1;
-    private int destreza=1;
-    private int inteligencia=1;
-    private int vida=10;
-    private int armadura=15;
+    private int fuerza=3;
+    private int destreza=3;
+    private int inteligencia=3;
+    private int vida=5;
+    private int armadura=10+destreza;
     private Ataque ataque1= new AtaqueSinArma();
-    private int defensa;
+    private int defensa=fuerza;
     private EstrategiaEnemigo estrategia;
 
     @Override

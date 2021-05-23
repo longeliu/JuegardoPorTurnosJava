@@ -7,7 +7,7 @@ import DecoratorAtaque.Enemigos.Gigante.SUPP.RunasFuerte;
 import DecoratorAtaque.Enemigos.Gigante.SUPP.RunasMedio;
 import Strategy.EstrategiaEnemigo;
 
-public class GiganteEstrategiaSUPP implements EstrategiaEnemigo{
+public class GiganteEstrategiaSUPP implements EstrategiaEnemigo{//Selecciona un ataque diferente para los gigantes en funcion del mundo
     private String nombre = "SUPP";
 
     public Ataque getAtaque2(int mundo){

@@ -7,7 +7,7 @@ import DecoratorAtaque.Enemigos.Kobold.DEF.PlacajeIgneo;
 import DecoratorAtaque.Enemigos.Kobold.DEF.PlacajeHelado;
 import Strategy.EstrategiaEnemigo;
 
-public class KoboldEstrategiaDEF implements EstrategiaEnemigo{
+public class KoboldEstrategiaDEF implements EstrategiaEnemigo{//Selecciona un ataque diferente para los kobolds en funcion del mundo
     private String nombre = "DEF";
 
     public Ataque getAtaque2(int mundo){

@@ -8,7 +8,7 @@ public class AzotamentesVientohelado extends Azotamentes {
     private int fuerza=4;
     private int destreza=4;
     private int inteligencia=4;
-    private int vida=10;
+    private int vida=6;
     private int armadura=10+destreza;
     private Ataque ataque1= new AtaqueSinArma();
     private int defensa=fuerza;

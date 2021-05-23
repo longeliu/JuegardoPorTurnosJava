@@ -8,7 +8,7 @@ public class GiganteAltoBosque extends Gigante{
     private int fuerza=1;
     private int destreza=1;
     private int inteligencia=1;
-    private int vida=10;
+    private int vida=3;
     private int armadura=10+destreza;
     private Ataque ataque1= new AtaqueSinArma();
     private int defensa=fuerza;

@@ -9,7 +9,8 @@ import FactoryEnemigos.Huargo.HuargoCostaEspada;
 import FactoryEnemigos.Kobold.Kobold;
 import FactoryEnemigos.Kobold.KoboldCostaEspada;
 
-public class CostaDeLaEspada implements EnemyFactory{
+public class CostaDeLaEspada implements EnemyFactory{//Devuelve un nuevo enemigo del mundo 2
+
     public Kobold creaKobold() {
         return new KoboldCostaEspada();
     }

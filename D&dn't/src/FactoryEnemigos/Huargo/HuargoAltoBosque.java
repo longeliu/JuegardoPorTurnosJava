@@ -8,10 +8,10 @@ public class HuargoAltoBosque extends Huargo{
     private int fuerza=1;
     private int destreza=1;
     private int inteligencia=1;
-    private int vida=10;
-    private int armadura=15;
+    private int vida=3;
+    private int armadura=10+destreza;
     private Ataque ataque1= new AtaqueSinArma();
-    private int defensa;
+    private int defensa=fuerza;
     private EstrategiaEnemigo estrategia;
 
 

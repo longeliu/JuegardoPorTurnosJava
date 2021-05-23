@@ -1,6 +1,7 @@
 package State;
 
 public class Estado {
+
     private EstadoPersonaje estadoActual;
 
     public Estado(){

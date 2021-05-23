@@ -7,7 +7,7 @@ import DecoratorAtaque.Enemigos.Azotamentes.SUPP.RegeneracionFuerte;
 import DecoratorAtaque.Enemigos.Azotamentes.SUPP.RegeneracionMedio;
 import Strategy.EstrategiaEnemigo;
 
-public class AzotamentesEstrategiaSUPP implements EstrategiaEnemigo{
+public class AzotamentesEstrategiaSUPP implements EstrategiaEnemigo{//Selecciona un ataque diferente para los azotamentes en funcion del mundo
     private String nombre = "SUPP";
 
     public Ataque getAtaque2(int mundo){
