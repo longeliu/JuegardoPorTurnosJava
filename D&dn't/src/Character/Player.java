@@ -108,12 +108,12 @@ public class Player implements Character{
 
     private void guerrero(){//Clase que destaca por su fuerza
         System.out.println("Guerrero");
-        this.fuerza=4;
+        this.fuerza=8;
         this.destreza=2;
         this.inteligencia=1;
         this.vida=10+fuerza;
         this.defensa=fuerza;
-        this.armadura=10+destreza;
+        this.armadura=16+destreza;
         this.ataque1=new Empujon(new AtaqueSinArma());
         this.ataque2=new Maza(new AtaqueSinArma());
 
@@ -122,11 +122,11 @@ public class Player implements Character{
     private void mago(){//Clase que destaca por su inteligencia
         System.out.println("Mago");
         this.fuerza=1;
-        this.destreza=2;
+        this.destreza=8;
         this.inteligencia=4;
         this.vida=10+fuerza;
         this.defensa=fuerza;
-        this.armadura=10+destreza;
+        this.armadura=16+destreza;
         this.ataque1=new SaetaDeFuego(new AtaqueSinArma());
         this.ataque2=new Baston(new Baston(new AtaqueSinArma()));
     }
@@ -135,8 +135,9 @@ public class Player implements Character{
         System.out.println("Pícaro");
         this.fuerza=2;
         this.destreza=4;
-        this.inteligencia=1;
-        this.armadura=10+destreza;
+        this.inteligencia=8;
+        this.vida=10+fuerza;
+        this.armadura=16+destreza;
         this.defensa=fuerza;
         this.ataque1=new Cegar(new AtaqueSinArma());
         this.ataque2=new Espada(new AtaqueSinArma());

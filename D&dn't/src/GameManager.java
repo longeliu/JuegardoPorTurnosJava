@@ -54,7 +54,7 @@ public class GameManager {
     }
 
     private static void turnoJugador(Player personajeP, ArrayList<Enemigo> enemigos){//turno del jugador
-        personajeP.setArmadura(10+personajeP.getDestreza());//resetea la armadura por si se ha utilizado defensa en el turno anterior
+        personajeP.setArmadura(16+personajeP.getDestreza());//resetea la armadura por si se ha utilizado defensa en el turno anterior
         Scanner entrada = new Scanner(System.in);
         System.out.println("Es tu turno, tienes " + personajeP.getVida() +  " de vida, puedes hacer lo siguiente: ");
         System.out.println("1- " + personajeP.getAtaque1().getNombre() +"\n2- " + personajeP.getAtaque2().getNombre() +"\n3- Defensa\n4- Rendirte");//muestra las acciones disponibles
@@ -227,7 +227,7 @@ public class GameManager {
         }else if(n_puntos < 14){//igual que el anterior pero cambiando la factoria de mundo
             if(n_puntos== 6){
                 personajeP.getEstado().siguienteEstado();
-                personajeP.setVida(20+personajeP.getFuerza());
+                personajeP.setVida(30+personajeP.getFuerza());
                 System.out.println("Te has curado.");
             }
             System.out.println(personajeP.getEstado().getEstadoActual().queEstadoSoy());
@@ -264,7 +264,7 @@ public class GameManager {
             }
         }else if(n_puntos < 22){//igual que el anterior pero cambiando la factoria de mundo
             if(n_puntos== 14){
-                personajeP.setVida(30+personajeP.getFuerza());
+                personajeP.setVida(50+personajeP.getFuerza());
                 System.out.println("Te has curado.");
             }
             System.out.println(personajeP.getEstado().getEstadoActual().queEstadoSoy());
@@ -302,7 +302,7 @@ public class GameManager {
         }else{//igual que el anterior pero cambiando la factoria de mundo
             if(n_puntos== 22){
                 personajeP.getEstado().siguienteEstado();
-                personajeP.setVida(40+personajeP.getFuerza());
+                personajeP.setVida(70+personajeP.getFuerza());
                 System.out.println("Te has curado.");
             }
             System.out.println(personajeP.getEstado().getEstadoActual().queEstadoSoy());
